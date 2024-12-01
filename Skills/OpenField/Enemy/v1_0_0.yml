@@ -1,7 +1,4 @@
 OpenField_Enemy_test_Tatsukitsune7_Skills:
   Skills:
-  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Soul} ];roll=-45to45}
-    oh=[
-      - damage{a=20;pi=true;ii=true}
-    ];
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Soul} ];roll=-45to45;oh=[ - damage{a=20;pi=true;ii=true]}
   - sound{s=item.totem.use;v=1;p=0.8} @playersInRadius{r=20}
