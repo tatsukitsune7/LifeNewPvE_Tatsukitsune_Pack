@@ -1,0 +1,9 @@
+OpenField_Enemy_test_Tatsukitsune7_Skills:
+  Skills:
+  - projectile{oT=Test_ptick;oH=Test_phit;v=10;i=4} @target
+Test_ptick:
+  Skills:
+  - effect:particles{particle=reddust;color=#cc0000;a=10;hs=0.1;vs=0.1} @origin
+Test_phit:
+  Skills:
+  - damage{a=1}
