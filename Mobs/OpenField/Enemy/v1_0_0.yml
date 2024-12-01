@@ -1,22 +1,10 @@
-OpenField_Enemy_a_Tatsukitsune7:
-  Template:  OpenField_Enemy_Base_MCLove32
-  Display: a
-  Health: 30
-  Damage: 6
-  Type: Enemy
-  Options:
-    FollowRange: 10
-    Scale: 1.5
-    MovementSpeed: 0.5
-    KnockbackResistance: 0.5
-    AttackSpeed: 1.5
-  Skills:
-OpenField_Enemy_b_Tatsukitsune7:
+OpenField_Enemy_test_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
-  Display: b
-  Health: 200
+  Display: test
+  Health: 16
   Damage: 10
-  Type: Enemy
+  Faction: Enemy
+  Type: Husk
   Options:
    FollowRange: 20
    Scale: 2.5
