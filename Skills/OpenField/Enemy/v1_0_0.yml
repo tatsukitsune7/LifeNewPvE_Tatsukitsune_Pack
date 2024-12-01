@@ -1,9 +1,4 @@
 OpenField_Enemy_test_Tatsukitsune7_Skills:
   Skills:
-  - projectile{oT=Test_ptick;oH=Test_phit;v=10;i=4} @target
-Test_ptick:
-  Skills:
-  - effect:particles{particle=reddust;color=#cc0000;a=10;hs=0.1;vs=0.1} @origin
-Test_phit:
-  Skills:
-  - damage{a=1}
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Soul} ];roll=-45to45}
+  - sound{s=item.totem.use;v=1;p=0.8} @playersInRadius{r=20}
