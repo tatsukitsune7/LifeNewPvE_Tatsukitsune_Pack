@@ -1,0 +1,2667 @@
+stone:
+  Id: stone
+granite:
+  Id: granite
+polished_granite:
+  Id: polished_granite
+diorite:
+  Id: diorite
+polished_diorite:
+  Id: polished_diorite
+andesite:
+  Id: andesite
+polished_andesite:
+  Id: polished_andesite
+deepslate:
+  Id: deepslate
+cobbled_deepslate:
+  Id: cobbled_deepslate
+polished_deepslate:
+  Id: polished_deepslate
+calcite:
+  Id: calcite
+tuff:
+  Id: tuff
+tuff_slab:
+  Id: tuff_slab
+tuff_stairs:
+  Id: tuff_stairs
+tuff_wall:
+  Id: tuff_wall
+chiseled_tuff:
+  Id: chiseled_tuff
+polished_tuff:
+  Id: polished_tuff
+polished_tuff_slab:
+  Id: polished_tuff_slab
+polished_tuff_stairs:
+  Id: polished_tuff_stairs
+polished_tuff_wall:
+  Id: polished_tuff_wall
+tuff_bricks:
+  Id: tuff_bricks
+tuff_brick_slab:
+  Id: tuff_brick_slab
+tuff_brick_stairs:
+  Id: tuff_brick_stairs
+tuff_brick_wall:
+  Id: tuff_brick_wall
+chiseled_tuff_bricks:
+  Id: chiseled_tuff_bricks
+dripstone_block:
+  Id: dripstone_block
+grass_block:
+  Id: grass_block
+dirt:
+  Id: dirt
+coarse_dirt:
+  Id: coarse_dirt
+podzol:
+  Id: podzol
+rooted_dirt:
+  Id: rooted_dirt
+mud:
+  Id: mud
+crimson_nylium:
+  Id: crimson_nylium
+warped_nylium:
+  Id: warped_nylium
+cobblestone:
+  Id: cobblestone
+oak_planks:
+  Id: oak_planks
+spruce_planks:
+  Id: spruce_planks
+birch_planks:
+  Id: birch_planks
+jungle_planks:
+  Id: jungle_planks
+acacia_planks:
+  Id: acacia_planks
+cherry_planks:
+  Id: cherry_planks
+dark_oak_planks:
+  Id: dark_oak_planks
+mangrove_planks:
+  Id: mangrove_planks
+bamboo_planks:
+  Id: bamboo_planks
+crimson_planks:
+  Id: crimson_planks
+warped_planks:
+  Id: warped_planks
+bamboo_mosaic:
+  Id: bamboo_mosaic
+oak_sapling:
+  Id: oak_sapling
+spruce_sapling:
+  Id: spruce_sapling
+birch_sapling:
+  Id: birch_sapling
+jungle_sapling:
+  Id: jungle_sapling
+acacia_sapling:
+  Id: acacia_sapling
+cherry_sapling:
+  Id: cherry_sapling
+dark_oak_sapling:
+  Id: dark_oak_sapling
+mangrove_propagule:
+  Id: mangrove_propagule
+bedrock:
+  Id: bedrock
+sand:
+  Id: sand
+suspicious_sand:
+  Id: suspicious_sand
+suspicious_gravel:
+  Id: suspicious_gravel
+red_sand:
+  Id: red_sand
+gravel:
+  Id: gravel
+coal_ore:
+  Id: coal_ore
+deepslate_coal_ore:
+  Id: deepslate_coal_ore
+iron_ore:
+  Id: iron_ore
+deepslate_iron_ore:
+  Id: deepslate_iron_ore
+copper_ore:
+  Id: copper_ore
+deepslate_copper_ore:
+  Id: deepslate_copper_ore
+gold_ore:
+  Id: gold_ore
+deepslate_gold_ore:
+  Id: deepslate_gold_ore
+redstone_ore:
+  Id: redstone_ore
+deepslate_redstone_ore:
+  Id: deepslate_redstone_ore
+emerald_ore:
+  Id: emerald_ore
+deepslate_emerald_ore:
+  Id: deepslate_emerald_ore
+lapis_ore:
+  Id: lapis_ore
+deepslate_lapis_ore:
+  Id: deepslate_lapis_ore
+diamond_ore:
+  Id: diamond_ore
+deepslate_diamond_ore:
+  Id: deepslate_diamond_ore
+nether_gold_ore:
+  Id: nether_gold_ore
+nether_quartz_ore:
+  Id: nether_quartz_ore
+ancient_debris:
+  Id: ancient_debris
+coal_block:
+  Id: coal_block
+raw_iron_block:
+  Id: raw_iron_block
+raw_copper_block:
+  Id: raw_copper_block
+raw_gold_block:
+  Id: raw_gold_block
+heavy_core:
+  Id: heavy_core
+amethyst_block:
+  Id: amethyst_block
+budding_amethyst:
+  Id: budding_amethyst
+iron_block:
+  Id: iron_block
+copper_block:
+  Id: copper_block
+gold_block:
+  Id: gold_block
+diamond_block:
+  Id: diamond_block
+netherite_block:
+  Id: netherite_block
+exposed_copper:
+  Id: exposed_copper
+weathered_copper:
+  Id: weathered_copper
+oxidized_copper:
+  Id: oxidized_copper
+chiseled_copper:
+  Id: chiseled_copper
+exposed_chiseled_copper:
+  Id: exposed_chiseled_copper
+weathered_chiseled_copper:
+  Id: weathered_chiseled_copper
+oxidized_chiseled_copper:
+  Id: oxidized_chiseled_copper
+cut_copper:
+  Id: cut_copper
+exposed_cut_copper:
+  Id: exposed_cut_copper
+weathered_cut_copper:
+  Id: weathered_cut_copper
+oxidized_cut_copper:
+  Id: oxidized_cut_copper
+cut_copper_stairs:
+  Id: cut_copper_stairs
+exposed_cut_copper_stairs:
+  Id: exposed_cut_copper_stairs
+weathered_cut_copper_stairs:
+  Id: weathered_cut_copper_stairs
+oxidized_cut_copper_stairs:
+  Id: oxidized_cut_copper_stairs
+cut_copper_slab:
+  Id: cut_copper_slab
+exposed_cut_copper_slab:
+  Id: exposed_cut_copper_slab
+weathered_cut_copper_slab:
+  Id: weathered_cut_copper_slab
+oxidized_cut_copper_slab:
+  Id: oxidized_cut_copper_slab
+waxed_copper_block:
+  Id: waxed_copper_block
+waxed_exposed_copper:
+  Id: waxed_exposed_copper
+waxed_weathered_copper:
+  Id: waxed_weathered_copper
+waxed_oxidized_copper:
+  Id: waxed_oxidized_copper
+waxed_chiseled_copper:
+  Id: waxed_chiseled_copper
+waxed_exposed_chiseled_copper:
+  Id: waxed_exposed_chiseled_copper
+waxed_weathered_chiseled_copper:
+  Id: waxed_weathered_chiseled_copper
+waxed_oxidized_chiseled_copper:
+  Id: waxed_oxidized_chiseled_copper
+waxed_cut_copper:
+  Id: waxed_cut_copper
+waxed_exposed_cut_copper:
+  Id: waxed_exposed_cut_copper
+waxed_weathered_cut_copper:
+  Id: waxed_weathered_cut_copper
+waxed_oxidized_cut_copper:
+  Id: waxed_oxidized_cut_copper
+waxed_cut_copper_stairs:
+  Id: waxed_cut_copper_stairs
+waxed_exposed_cut_copper_stairs:
+  Id: waxed_exposed_cut_copper_stairs
+waxed_weathered_cut_copper_stairs:
+  Id: waxed_weathered_cut_copper_stairs
+waxed_oxidized_cut_copper_stairs:
+  Id: waxed_oxidized_cut_copper_stairs
+waxed_cut_copper_slab:
+  Id: waxed_cut_copper_slab
+waxed_exposed_cut_copper_slab:
+  Id: waxed_exposed_cut_copper_slab
+waxed_weathered_cut_copper_slab:
+  Id: waxed_weathered_cut_copper_slab
+waxed_oxidized_cut_copper_slab:
+  Id: waxed_oxidized_cut_copper_slab
+oak_log:
+  Id: oak_log
+spruce_log:
+  Id: spruce_log
+birch_log:
+  Id: birch_log
+jungle_log:
+  Id: jungle_log
+acacia_log:
+  Id: acacia_log
+cherry_log:
+  Id: cherry_log
+dark_oak_log:
+  Id: dark_oak_log
+mangrove_log:
+  Id: mangrove_log
+mangrove_roots:
+  Id: mangrove_roots
+muddy_mangrove_roots:
+  Id: muddy_mangrove_roots
+crimson_stem:
+  Id: crimson_stem
+warped_stem:
+  Id: warped_stem
+bamboo_block:
+  Id: bamboo_block
+stripped_oak_log:
+  Id: stripped_oak_log
+stripped_spruce_log:
+  Id: stripped_spruce_log
+stripped_birch_log:
+  Id: stripped_birch_log
+stripped_jungle_log:
+  Id: stripped_jungle_log
+stripped_acacia_log:
+  Id: stripped_acacia_log
+stripped_cherry_log:
+  Id: stripped_cherry_log
+stripped_dark_oak_log:
+  Id: stripped_dark_oak_log
+stripped_mangrove_log:
+  Id: stripped_mangrove_log
+stripped_crimson_stem:
+  Id: stripped_crimson_stem
+stripped_warped_stem:
+  Id: stripped_warped_stem
+stripped_oak_wood:
+  Id: stripped_oak_wood
+stripped_spruce_wood:
+  Id: stripped_spruce_wood
+stripped_birch_wood:
+  Id: stripped_birch_wood
+stripped_jungle_wood:
+  Id: stripped_jungle_wood
+stripped_acacia_wood:
+  Id: stripped_acacia_wood
+stripped_cherry_wood:
+  Id: stripped_cherry_wood
+stripped_dark_oak_wood:
+  Id: stripped_dark_oak_wood
+stripped_mangrove_wood:
+  Id: stripped_mangrove_wood
+stripped_crimson_hyphae:
+  Id: stripped_crimson_hyphae
+stripped_warped_hyphae:
+  Id: stripped_warped_hyphae
+stripped_bamboo_block:
+  Id: stripped_bamboo_block
+oak_wood:
+  Id: oak_wood
+spruce_wood:
+  Id: spruce_wood
+birch_wood:
+  Id: birch_wood
+jungle_wood:
+  Id: jungle_wood
+acacia_wood:
+  Id: acacia_wood
+cherry_wood:
+  Id: cherry_wood
+dark_oak_wood:
+  Id: dark_oak_wood
+mangrove_wood:
+  Id: mangrove_wood
+crimson_hyphae:
+  Id: crimson_hyphae
+warped_hyphae:
+  Id: warped_hyphae
+oak_leaves:
+  Id: oak_leaves
+spruce_leaves:
+  Id: spruce_leaves
+birch_leaves:
+  Id: birch_leaves
+jungle_leaves:
+  Id: jungle_leaves
+acacia_leaves:
+  Id: acacia_leaves
+cherry_leaves:
+  Id: cherry_leaves
+dark_oak_leaves:
+  Id: dark_oak_leaves
+mangrove_leaves:
+  Id: mangrove_leaves
+azalea_leaves:
+  Id: azalea_leaves
+flowering_azalea_leaves:
+  Id: flowering_azalea_leaves
+sponge:
+  Id: sponge
+wet_sponge:
+  Id: wet_sponge
+glass:
+  Id: glass
+tinted_glass:
+  Id: tinted_glass
+lapis_block:
+  Id: lapis_block
+sandstone:
+  Id: sandstone
+chiseled_sandstone:
+  Id: chiseled_sandstone
+cut_sandstone:
+  Id: cut_sandstone
+cobweb:
+  Id: cobweb
+short_grass:
+  Id: short_grass
+fern:
+  Id: fern
+azalea:
+  Id: azalea
+flowering_azalea:
+  Id: flowering_azalea
+dead_bush:
+  Id: dead_bush
+seagrass:
+  Id: seagrass
+sea_pickle:
+  Id: sea_pickle
+white_wool:
+  Id: white_wool
+orange_wool:
+  Id: orange_wool
+magenta_wool:
+  Id: magenta_wool
+light_blue_wool:
+  Id: light_blue_wool
+yellow_wool:
+  Id: yellow_wool
+lime_wool:
+  Id: lime_wool
+pink_wool:
+  Id: pink_wool
+gray_wool:
+  Id: gray_wool
+light_gray_wool:
+  Id: light_gray_wool
+cyan_wool:
+  Id: cyan_wool
+purple_wool:
+  Id: purple_wool
+blue_wool:
+  Id: blue_wool
+brown_wool:
+  Id: brown_wool
+green_wool:
+  Id: green_wool
+red_wool:
+  Id: red_wool
+black_wool:
+  Id: black_wool
+dandelion:
+  Id: dandelion
+poppy:
+  Id: poppy
+blue_orchid:
+  Id: blue_orchid
+allium:
+  Id: allium
+azure_bluet:
+  Id: azure_bluet
+red_tulip:
+  Id: red_tulip
+orange_tulip:
+  Id: orange_tulip
+white_tulip:
+  Id: white_tulip
+pink_tulip:
+  Id: pink_tulip
+oxeye_daisy:
+  Id: oxeye_daisy
+cornflower:
+  Id: cornflower
+lily_of_the_valley:
+  Id: lily_of_the_valley
+wither_rose:
+  Id: wither_rose
+torchflower:
+  Id: torchflower
+pitcher_plant:
+  Id: pitcher_plant
+spore_blossom:
+  Id: spore_blossom
+brown_mushroom:
+  Id: brown_mushroom
+red_mushroom:
+  Id: red_mushroom
+crimson_fungus:
+  Id: crimson_fungus
+warped_fungus:
+  Id: warped_fungus
+crimson_roots:
+  Id: crimson_roots
+warped_roots:
+  Id: warped_roots
+nether_sprouts:
+  Id: nether_sprouts
+weeping_vines:
+  Id: weeping_vines
+twisting_vines:
+  Id: twisting_vines
+sugar_cane:
+  Id: sugar_cane
+kelp:
+  Id: kelp
+moss_carpet:
+  Id: moss_carpet
+pink_petals:
+  Id: pink_petals
+moss_block:
+  Id: moss_block
+hanging_roots:
+  Id: hanging_roots
+big_dripleaf:
+  Id: big_dripleaf
+small_dripleaf:
+  Id: small_dripleaf
+bamboo:
+  Id: bamboo
+oak_slab:
+  Id: oak_slab
+spruce_slab:
+  Id: spruce_slab
+birch_slab:
+  Id: birch_slab
+jungle_slab:
+  Id: jungle_slab
+acacia_slab:
+  Id: acacia_slab
+cherry_slab:
+  Id: cherry_slab
+dark_oak_slab:
+  Id: dark_oak_slab
+mangrove_slab:
+  Id: mangrove_slab
+bamboo_slab:
+  Id: bamboo_slab
+bamboo_mosaic_slab:
+  Id: bamboo_mosaic_slab
+crimson_slab:
+  Id: crimson_slab
+warped_slab:
+  Id: warped_slab
+stone_slab:
+  Id: stone_slab
+smooth_stone_slab:
+  Id: smooth_stone_slab
+sandstone_slab:
+  Id: sandstone_slab
+cut_sandstone_slab:
+  Id: cut_sandstone_slab
+petrified_oak_slab:
+  Id: petrified_oak_slab
+cobblestone_slab:
+  Id: cobblestone_slab
+brick_slab:
+  Id: brick_slab
+stone_brick_slab:
+  Id: stone_brick_slab
+mud_brick_slab:
+  Id: mud_brick_slab
+nether_brick_slab:
+  Id: nether_brick_slab
+quartz_slab:
+  Id: quartz_slab
+red_sandstone_slab:
+  Id: red_sandstone_slab
+cut_red_sandstone_slab:
+  Id: cut_red_sandstone_slab
+purpur_slab:
+  Id: purpur_slab
+prismarine_slab:
+  Id: prismarine_slab
+prismarine_brick_slab:
+  Id: prismarine_brick_slab
+dark_prismarine_slab:
+  Id: dark_prismarine_slab
+smooth_quartz:
+  Id: smooth_quartz
+smooth_red_sandstone:
+  Id: smooth_red_sandstone
+smooth_sandstone:
+  Id: smooth_sandstone
+smooth_stone:
+  Id: smooth_stone
+bricks:
+  Id: bricks
+bookshelf:
+  Id: bookshelf
+chiseled_bookshelf:
+  Id: chiseled_bookshelf
+decorated_pot:
+  Id: decorated_pot
+mossy_cobblestone:
+  Id: mossy_cobblestone
+obsidian:
+  Id: obsidian
+torch:
+  Id: torch
+end_rod:
+  Id: end_rod
+chorus_plant:
+  Id: chorus_plant
+chorus_flower:
+  Id: chorus_flower
+purpur_block:
+  Id: purpur_block
+purpur_pillar:
+  Id: purpur_pillar
+purpur_stairs:
+  Id: purpur_stairs
+spawner:
+  Id: spawner
+chest:
+  Id: chest
+crafting_table:
+  Id: crafting_table
+farmland:
+  Id: farmland
+furnace:
+  Id: furnace
+ladder:
+  Id: ladder
+cobblestone_stairs:
+  Id: cobblestone_stairs
+snow:
+  Id: snow
+ice:
+  Id: ice
+snow_block:
+  Id: snow_block
+cactus:
+  Id: cactus
+clay:
+  Id: clay
+jukebox:
+  Id: jukebox
+oak_fence:
+  Id: oak_fence
+spruce_fence:
+  Id: spruce_fence
+birch_fence:
+  Id: birch_fence
+jungle_fence:
+  Id: jungle_fence
+acacia_fence:
+  Id: acacia_fence
+cherry_fence:
+  Id: cherry_fence
+dark_oak_fence:
+  Id: dark_oak_fence
+mangrove_fence:
+  Id: mangrove_fence
+bamboo_fence:
+  Id: bamboo_fence
+crimson_fence:
+  Id: crimson_fence
+warped_fence:
+  Id: warped_fence
+pumpkin:
+  Id: pumpkin
+carved_pumpkin:
+  Id: carved_pumpkin
+jack_o_lantern:
+  Id: jack_o_lantern
+netherrack:
+  Id: netherrack
+soul_sand:
+  Id: soul_sand
+soul_soil:
+  Id: soul_soil
+basalt:
+  Id: basalt
+polished_basalt:
+  Id: polished_basalt
+smooth_basalt:
+  Id: smooth_basalt
+soul_torch:
+  Id: soul_torch
+glowstone:
+  Id: glowstone
+infested_stone:
+  Id: infested_stone
+infested_cobblestone:
+  Id: infested_cobblestone
+infested_stone_bricks:
+  Id: infested_stone_bricks
+infested_mossy_stone_bricks:
+  Id: infested_mossy_stone_bricks
+infested_cracked_stone_bricks:
+  Id: infested_cracked_stone_bricks
+infested_chiseled_stone_bricks:
+  Id: infested_chiseled_stone_bricks
+infested_deepslate:
+  Id: infested_deepslate
+stone_bricks:
+  Id: stone_bricks
+mossy_stone_bricks:
+  Id: mossy_stone_bricks
+cracked_stone_bricks:
+  Id: cracked_stone_bricks
+chiseled_stone_bricks:
+  Id: chiseled_stone_bricks
+packed_mud:
+  Id: packed_mud
+mud_bricks:
+  Id: mud_bricks
+deepslate_bricks:
+  Id: deepslate_bricks
+cracked_deepslate_bricks:
+  Id: cracked_deepslate_bricks
+deepslate_tiles:
+  Id: deepslate_tiles
+cracked_deepslate_tiles:
+  Id: cracked_deepslate_tiles
+chiseled_deepslate:
+  Id: chiseled_deepslate
+reinforced_deepslate:
+  Id: reinforced_deepslate
+brown_mushroom_block:
+  Id: brown_mushroom_block
+red_mushroom_block:
+  Id: red_mushroom_block
+mushroom_stem:
+  Id: mushroom_stem
+iron_bars:
+  Id: iron_bars
+chain:
+  Id: chain
+glass_pane:
+  Id: glass_pane
+melon:
+  Id: melon
+vine:
+  Id: vine
+glow_lichen:
+  Id: glow_lichen
+brick_stairs:
+  Id: brick_stairs
+stone_brick_stairs:
+  Id: stone_brick_stairs
+mud_brick_stairs:
+  Id: mud_brick_stairs
+mycelium:
+  Id: mycelium
+lily_pad:
+  Id: lily_pad
+nether_bricks:
+  Id: nether_bricks
+cracked_nether_bricks:
+  Id: cracked_nether_bricks
+chiseled_nether_bricks:
+  Id: chiseled_nether_bricks
+nether_brick_fence:
+  Id: nether_brick_fence
+nether_brick_stairs:
+  Id: nether_brick_stairs
+sculk:
+  Id: sculk
+sculk_vein:
+  Id: sculk_vein
+sculk_catalyst:
+  Id: sculk_catalyst
+sculk_shrieker:
+  Id: sculk_shrieker
+enchanting_table:
+  Id: enchanting_table
+end_portal_frame:
+  Id: end_portal_frame
+end_stone:
+  Id: end_stone
+end_stone_bricks:
+  Id: end_stone_bricks
+dragon_egg:
+  Id: dragon_egg
+sandstone_stairs:
+  Id: sandstone_stairs
+ender_chest:
+  Id: ender_chest
+emerald_block:
+  Id: emerald_block
+oak_stairs:
+  Id: oak_stairs
+spruce_stairs:
+  Id: spruce_stairs
+birch_stairs:
+  Id: birch_stairs
+jungle_stairs:
+  Id: jungle_stairs
+acacia_stairs:
+  Id: acacia_stairs
+cherry_stairs:
+  Id: cherry_stairs
+dark_oak_stairs:
+  Id: dark_oak_stairs
+mangrove_stairs:
+  Id: mangrove_stairs
+bamboo_stairs:
+  Id: bamboo_stairs
+bamboo_mosaic_stairs:
+  Id: bamboo_mosaic_stairs
+crimson_stairs:
+  Id: crimson_stairs
+warped_stairs:
+  Id: warped_stairs
+command_block:
+  Id: command_block
+beacon:
+  Id: beacon
+cobblestone_wall:
+  Id: cobblestone_wall
+mossy_cobblestone_wall:
+  Id: mossy_cobblestone_wall
+brick_wall:
+  Id: brick_wall
+prismarine_wall:
+  Id: prismarine_wall
+red_sandstone_wall:
+  Id: red_sandstone_wall
+mossy_stone_brick_wall:
+  Id: mossy_stone_brick_wall
+granite_wall:
+  Id: granite_wall
+stone_brick_wall:
+  Id: stone_brick_wall
+mud_brick_wall:
+  Id: mud_brick_wall
+nether_brick_wall:
+  Id: nether_brick_wall
+andesite_wall:
+  Id: andesite_wall
+red_nether_brick_wall:
+  Id: red_nether_brick_wall
+sandstone_wall:
+  Id: sandstone_wall
+end_stone_brick_wall:
+  Id: end_stone_brick_wall
+diorite_wall:
+  Id: diorite_wall
+blackstone_wall:
+  Id: blackstone_wall
+polished_blackstone_wall:
+  Id: polished_blackstone_wall
+polished_blackstone_brick_wall:
+  Id: polished_blackstone_brick_wall
+cobbled_deepslate_wall:
+  Id: cobbled_deepslate_wall
+polished_deepslate_wall:
+  Id: polished_deepslate_wall
+deepslate_brick_wall:
+  Id: deepslate_brick_wall
+deepslate_tile_wall:
+  Id: deepslate_tile_wall
+anvil:
+  Id: anvil
+chipped_anvil:
+  Id: chipped_anvil
+damaged_anvil:
+  Id: damaged_anvil
+chiseled_quartz_block:
+  Id: chiseled_quartz_block
+quartz_block:
+  Id: quartz_block
+quartz_bricks:
+  Id: quartz_bricks
+quartz_pillar:
+  Id: quartz_pillar
+quartz_stairs:
+  Id: quartz_stairs
+white_terracotta:
+  Id: white_terracotta
+orange_terracotta:
+  Id: orange_terracotta
+magenta_terracotta:
+  Id: magenta_terracotta
+light_blue_terracotta:
+  Id: light_blue_terracotta
+yellow_terracotta:
+  Id: yellow_terracotta
+lime_terracotta:
+  Id: lime_terracotta
+pink_terracotta:
+  Id: pink_terracotta
+gray_terracotta:
+  Id: gray_terracotta
+light_gray_terracotta:
+  Id: light_gray_terracotta
+cyan_terracotta:
+  Id: cyan_terracotta
+purple_terracotta:
+  Id: purple_terracotta
+blue_terracotta:
+  Id: blue_terracotta
+brown_terracotta:
+  Id: brown_terracotta
+green_terracotta:
+  Id: green_terracotta
+red_terracotta:
+  Id: red_terracotta
+black_terracotta:
+  Id: black_terracotta
+barrier:
+  Id: barrier
+light:
+  Id: light
+hay_block:
+  Id: hay_block
+white_carpet:
+  Id: white_carpet
+orange_carpet:
+  Id: orange_carpet
+magenta_carpet:
+  Id: magenta_carpet
+light_blue_carpet:
+  Id: light_blue_carpet
+yellow_carpet:
+  Id: yellow_carpet
+lime_carpet:
+  Id: lime_carpet
+pink_carpet:
+  Id: pink_carpet
+gray_carpet:
+  Id: gray_carpet
+light_gray_carpet:
+  Id: light_gray_carpet
+cyan_carpet:
+  Id: cyan_carpet
+purple_carpet:
+  Id: purple_carpet
+blue_carpet:
+  Id: blue_carpet
+brown_carpet:
+  Id: brown_carpet
+green_carpet:
+  Id: green_carpet
+red_carpet:
+  Id: red_carpet
+black_carpet:
+  Id: black_carpet
+terracotta:
+  Id: terracotta
+packed_ice:
+  Id: packed_ice
+dirt_path:
+  Id: dirt_path
+sunflower:
+  Id: sunflower
+lilac:
+  Id: lilac
+rose_bush:
+  Id: rose_bush
+peony:
+  Id: peony
+tall_grass:
+  Id: tall_grass
+large_fern:
+  Id: large_fern
+white_stained_glass:
+  Id: white_stained_glass
+orange_stained_glass:
+  Id: orange_stained_glass
+magenta_stained_glass:
+  Id: magenta_stained_glass
+light_blue_stained_glass:
+  Id: light_blue_stained_glass
+yellow_stained_glass:
+  Id: yellow_stained_glass
+lime_stained_glass:
+  Id: lime_stained_glass
+pink_stained_glass:
+  Id: pink_stained_glass
+gray_stained_glass:
+  Id: gray_stained_glass
+light_gray_stained_glass:
+  Id: light_gray_stained_glass
+cyan_stained_glass:
+  Id: cyan_stained_glass
+purple_stained_glass:
+  Id: purple_stained_glass
+blue_stained_glass:
+  Id: blue_stained_glass
+brown_stained_glass:
+  Id: brown_stained_glass
+green_stained_glass:
+  Id: green_stained_glass
+red_stained_glass:
+  Id: red_stained_glass
+black_stained_glass:
+  Id: black_stained_glass
+white_stained_glass_pane:
+  Id: white_stained_glass_pane
+orange_stained_glass_pane:
+  Id: orange_stained_glass_pane
+magenta_stained_glass_pane:
+  Id: magenta_stained_glass_pane
+light_blue_stained_glass_pane:
+  Id: light_blue_stained_glass_pane
+yellow_stained_glass_pane:
+  Id: yellow_stained_glass_pane
+lime_stained_glass_pane:
+  Id: lime_stained_glass_pane
+pink_stained_glass_pane:
+  Id: pink_stained_glass_pane
+gray_stained_glass_pane:
+  Id: gray_stained_glass_pane
+light_gray_stained_glass_pane:
+  Id: light_gray_stained_glass_pane
+cyan_stained_glass_pane:
+  Id: cyan_stained_glass_pane
+purple_stained_glass_pane:
+  Id: purple_stained_glass_pane
+blue_stained_glass_pane:
+  Id: blue_stained_glass_pane
+brown_stained_glass_pane:
+  Id: brown_stained_glass_pane
+green_stained_glass_pane:
+  Id: green_stained_glass_pane
+red_stained_glass_pane:
+  Id: red_stained_glass_pane
+black_stained_glass_pane:
+  Id: black_stained_glass_pane
+prismarine:
+  Id: prismarine
+prismarine_bricks:
+  Id: prismarine_bricks
+dark_prismarine:
+  Id: dark_prismarine
+prismarine_stairs:
+  Id: prismarine_stairs
+prismarine_brick_stairs:
+  Id: prismarine_brick_stairs
+dark_prismarine_stairs:
+  Id: dark_prismarine_stairs
+sea_lantern:
+  Id: sea_lantern
+red_sandstone:
+  Id: red_sandstone
+chiseled_red_sandstone:
+  Id: chiseled_red_sandstone
+cut_red_sandstone:
+  Id: cut_red_sandstone
+red_sandstone_stairs:
+  Id: red_sandstone_stairs
+repeating_command_block:
+  Id: repeating_command_block
+chain_command_block:
+  Id: chain_command_block
+magma_block:
+  Id: magma_block
+nether_wart_block:
+  Id: nether_wart_block
+warped_wart_block:
+  Id: warped_wart_block
+red_nether_bricks:
+  Id: red_nether_bricks
+bone_block:
+  Id: bone_block
+structure_void:
+  Id: structure_void
+shulker_box:
+  Id: shulker_box
+white_shulker_box:
+  Id: white_shulker_box
+orange_shulker_box:
+  Id: orange_shulker_box
+magenta_shulker_box:
+  Id: magenta_shulker_box
+light_blue_shulker_box:
+  Id: light_blue_shulker_box
+yellow_shulker_box:
+  Id: yellow_shulker_box
+lime_shulker_box:
+  Id: lime_shulker_box
+pink_shulker_box:
+  Id: pink_shulker_box
+gray_shulker_box:
+  Id: gray_shulker_box
+light_gray_shulker_box:
+  Id: light_gray_shulker_box
+cyan_shulker_box:
+  Id: cyan_shulker_box
+purple_shulker_box:
+  Id: purple_shulker_box
+blue_shulker_box:
+  Id: blue_shulker_box
+brown_shulker_box:
+  Id: brown_shulker_box
+green_shulker_box:
+  Id: green_shulker_box
+red_shulker_box:
+  Id: red_shulker_box
+black_shulker_box:
+  Id: black_shulker_box
+white_glazed_terracotta:
+  Id: white_glazed_terracotta
+orange_glazed_terracotta:
+  Id: orange_glazed_terracotta
+magenta_glazed_terracotta:
+  Id: magenta_glazed_terracotta
+light_blue_glazed_terracotta:
+  Id: light_blue_glazed_terracotta
+yellow_glazed_terracotta:
+  Id: yellow_glazed_terracotta
+lime_glazed_terracotta:
+  Id: lime_glazed_terracotta
+pink_glazed_terracotta:
+  Id: pink_glazed_terracotta
+gray_glazed_terracotta:
+  Id: gray_glazed_terracotta
+light_gray_glazed_terracotta:
+  Id: light_gray_glazed_terracotta
+cyan_glazed_terracotta:
+  Id: cyan_glazed_terracotta
+purple_glazed_terracotta:
+  Id: purple_glazed_terracotta
+blue_glazed_terracotta:
+  Id: blue_glazed_terracotta
+brown_glazed_terracotta:
+  Id: brown_glazed_terracotta
+green_glazed_terracotta:
+  Id: green_glazed_terracotta
+red_glazed_terracotta:
+  Id: red_glazed_terracotta
+black_glazed_terracotta:
+  Id: black_glazed_terracotta
+white_concrete:
+  Id: white_concrete
+orange_concrete:
+  Id: orange_concrete
+magenta_concrete:
+  Id: magenta_concrete
+light_blue_concrete:
+  Id: light_blue_concrete
+yellow_concrete:
+  Id: yellow_concrete
+lime_concrete:
+  Id: lime_concrete
+pink_concrete:
+  Id: pink_concrete
+gray_concrete:
+  Id: gray_concrete
+light_gray_concrete:
+  Id: light_gray_concrete
+cyan_concrete:
+  Id: cyan_concrete
+purple_concrete:
+  Id: purple_concrete
+blue_concrete:
+  Id: blue_concrete
+brown_concrete:
+  Id: brown_concrete
+green_concrete:
+  Id: green_concrete
+red_concrete:
+  Id: red_concrete
+black_concrete:
+  Id: black_concrete
+white_concrete_powder:
+  Id: white_concrete_powder
+orange_concrete_powder:
+  Id: orange_concrete_powder
+magenta_concrete_powder:
+  Id: magenta_concrete_powder
+light_blue_concrete_powder:
+  Id: light_blue_concrete_powder
+yellow_concrete_powder:
+  Id: yellow_concrete_powder
+lime_concrete_powder:
+  Id: lime_concrete_powder
+pink_concrete_powder:
+  Id: pink_concrete_powder
+gray_concrete_powder:
+  Id: gray_concrete_powder
+light_gray_concrete_powder:
+  Id: light_gray_concrete_powder
+cyan_concrete_powder:
+  Id: cyan_concrete_powder
+purple_concrete_powder:
+  Id: purple_concrete_powder
+blue_concrete_powder:
+  Id: blue_concrete_powder
+brown_concrete_powder:
+  Id: brown_concrete_powder
+green_concrete_powder:
+  Id: green_concrete_powder
+red_concrete_powder:
+  Id: red_concrete_powder
+black_concrete_powder:
+  Id: black_concrete_powder
+turtle_egg:
+  Id: turtle_egg
+sniffer_egg:
+  Id: sniffer_egg
+dead_tube_coral_block:
+  Id: dead_tube_coral_block
+dead_brain_coral_block:
+  Id: dead_brain_coral_block
+dead_bubble_coral_block:
+  Id: dead_bubble_coral_block
+dead_fire_coral_block:
+  Id: dead_fire_coral_block
+dead_horn_coral_block:
+  Id: dead_horn_coral_block
+tube_coral_block:
+  Id: tube_coral_block
+brain_coral_block:
+  Id: brain_coral_block
+bubble_coral_block:
+  Id: bubble_coral_block
+fire_coral_block:
+  Id: fire_coral_block
+horn_coral_block:
+  Id: horn_coral_block
+tube_coral:
+  Id: tube_coral
+brain_coral:
+  Id: brain_coral
+bubble_coral:
+  Id: bubble_coral
+fire_coral:
+  Id: fire_coral
+horn_coral:
+  Id: horn_coral
+dead_brain_coral:
+  Id: dead_brain_coral
+dead_bubble_coral:
+  Id: dead_bubble_coral
+dead_fire_coral:
+  Id: dead_fire_coral
+dead_horn_coral:
+  Id: dead_horn_coral
+dead_tube_coral:
+  Id: dead_tube_coral
+tube_coral_fan:
+  Id: tube_coral_fan
+brain_coral_fan:
+  Id: brain_coral_fan
+bubble_coral_fan:
+  Id: bubble_coral_fan
+fire_coral_fan:
+  Id: fire_coral_fan
+horn_coral_fan:
+  Id: horn_coral_fan
+dead_tube_coral_fan:
+  Id: dead_tube_coral_fan
+dead_brain_coral_fan:
+  Id: dead_brain_coral_fan
+dead_bubble_coral_fan:
+  Id: dead_bubble_coral_fan
+dead_fire_coral_fan:
+  Id: dead_fire_coral_fan
+dead_horn_coral_fan:
+  Id: dead_horn_coral_fan
+blue_ice:
+  Id: blue_ice
+conduit:
+  Id: conduit
+polished_granite_stairs:
+  Id: polished_granite_stairs
+smooth_red_sandstone_stairs:
+  Id: smooth_red_sandstone_stairs
+mossy_stone_brick_stairs:
+  Id: mossy_stone_brick_stairs
+polished_diorite_stairs:
+  Id: polished_diorite_stairs
+mossy_cobblestone_stairs:
+  Id: mossy_cobblestone_stairs
+end_stone_brick_stairs:
+  Id: end_stone_brick_stairs
+stone_stairs:
+  Id: stone_stairs
+smooth_sandstone_stairs:
+  Id: smooth_sandstone_stairs
+smooth_quartz_stairs:
+  Id: smooth_quartz_stairs
+granite_stairs:
+  Id: granite_stairs
+andesite_stairs:
+  Id: andesite_stairs
+red_nether_brick_stairs:
+  Id: red_nether_brick_stairs
+polished_andesite_stairs:
+  Id: polished_andesite_stairs
+diorite_stairs:
+  Id: diorite_stairs
+cobbled_deepslate_stairs:
+  Id: cobbled_deepslate_stairs
+polished_deepslate_stairs:
+  Id: polished_deepslate_stairs
+deepslate_brick_stairs:
+  Id: deepslate_brick_stairs
+deepslate_tile_stairs:
+  Id: deepslate_tile_stairs
+polished_granite_slab:
+  Id: polished_granite_slab
+smooth_red_sandstone_slab:
+  Id: smooth_red_sandstone_slab
+mossy_stone_brick_slab:
+  Id: mossy_stone_brick_slab
+polished_diorite_slab:
+  Id: polished_diorite_slab
+mossy_cobblestone_slab:
+  Id: mossy_cobblestone_slab
+end_stone_brick_slab:
+  Id: end_stone_brick_slab
+smooth_sandstone_slab:
+  Id: smooth_sandstone_slab
+smooth_quartz_slab:
+  Id: smooth_quartz_slab
+granite_slab:
+  Id: granite_slab
+andesite_slab:
+  Id: andesite_slab
+red_nether_brick_slab:
+  Id: red_nether_brick_slab
+polished_andesite_slab:
+  Id: polished_andesite_slab
+diorite_slab:
+  Id: diorite_slab
+cobbled_deepslate_slab:
+  Id: cobbled_deepslate_slab
+polished_deepslate_slab:
+  Id: polished_deepslate_slab
+deepslate_brick_slab:
+  Id: deepslate_brick_slab
+deepslate_tile_slab:
+  Id: deepslate_tile_slab
+scaffolding:
+  Id: scaffolding
+redstone:
+  Id: redstone
+redstone_torch:
+  Id: redstone_torch
+redstone_block:
+  Id: redstone_block
+repeater:
+  Id: repeater
+comparator:
+  Id: comparator
+piston:
+  Id: piston
+sticky_piston:
+  Id: sticky_piston
+slime_block:
+  Id: slime_block
+honey_block:
+  Id: honey_block
+observer:
+  Id: observer
+hopper:
+  Id: hopper
+dispenser:
+  Id: dispenser
+dropper:
+  Id: dropper
+lectern:
+  Id: lectern
+target:
+  Id: target
+lever:
+  Id: lever
+lightning_rod:
+  Id: lightning_rod
+daylight_detector:
+  Id: daylight_detector
+sculk_sensor:
+  Id: sculk_sensor
+calibrated_sculk_sensor:
+  Id: calibrated_sculk_sensor
+tripwire_hook:
+  Id: tripwire_hook
+trapped_chest:
+  Id: trapped_chest
+tnt:
+  Id: tnt
+redstone_lamp:
+  Id: redstone_lamp
+note_block:
+  Id: note_block
+stone_button:
+  Id: stone_button
+polished_blackstone_button:
+  Id: polished_blackstone_button
+oak_button:
+  Id: oak_button
+spruce_button:
+  Id: spruce_button
+birch_button:
+  Id: birch_button
+jungle_button:
+  Id: jungle_button
+acacia_button:
+  Id: acacia_button
+cherry_button:
+  Id: cherry_button
+dark_oak_button:
+  Id: dark_oak_button
+mangrove_button:
+  Id: mangrove_button
+bamboo_button:
+  Id: bamboo_button
+crimson_button:
+  Id: crimson_button
+warped_button:
+  Id: warped_button
+stone_pressure_plate:
+  Id: stone_pressure_plate
+polished_blackstone_pressure_plate:
+  Id: polished_blackstone_pressure_plate
+light_weighted_pressure_plate:
+  Id: light_weighted_pressure_plate
+heavy_weighted_pressure_plate:
+  Id: heavy_weighted_pressure_plate
+oak_pressure_plate:
+  Id: oak_pressure_plate
+spruce_pressure_plate:
+  Id: spruce_pressure_plate
+birch_pressure_plate:
+  Id: birch_pressure_plate
+jungle_pressure_plate:
+  Id: jungle_pressure_plate
+acacia_pressure_plate:
+  Id: acacia_pressure_plate
+cherry_pressure_plate:
+  Id: cherry_pressure_plate
+dark_oak_pressure_plate:
+  Id: dark_oak_pressure_plate
+mangrove_pressure_plate:
+  Id: mangrove_pressure_plate
+bamboo_pressure_plate:
+  Id: bamboo_pressure_plate
+crimson_pressure_plate:
+  Id: crimson_pressure_plate
+warped_pressure_plate:
+  Id: warped_pressure_plate
+iron_door:
+  Id: iron_door
+oak_door:
+  Id: oak_door
+spruce_door:
+  Id: spruce_door
+birch_door:
+  Id: birch_door
+jungle_door:
+  Id: jungle_door
+acacia_door:
+  Id: acacia_door
+cherry_door:
+  Id: cherry_door
+dark_oak_door:
+  Id: dark_oak_door
+mangrove_door:
+  Id: mangrove_door
+bamboo_door:
+  Id: bamboo_door
+crimson_door:
+  Id: crimson_door
+warped_door:
+  Id: warped_door
+copper_door:
+  Id: copper_door
+exposed_copper_door:
+  Id: exposed_copper_door
+weathered_copper_door:
+  Id: weathered_copper_door
+oxidized_copper_door:
+  Id: oxidized_copper_door
+waxed_copper_door:
+  Id: waxed_copper_door
+waxed_exposed_copper_door:
+  Id: waxed_exposed_copper_door
+waxed_weathered_copper_door:
+  Id: waxed_weathered_copper_door
+waxed_oxidized_copper_door:
+  Id: waxed_oxidized_copper_door
+iron_trapdoor:
+  Id: iron_trapdoor
+oak_trapdoor:
+  Id: oak_trapdoor
+spruce_trapdoor:
+  Id: spruce_trapdoor
+birch_trapdoor:
+  Id: birch_trapdoor
+jungle_trapdoor:
+  Id: jungle_trapdoor
+acacia_trapdoor:
+  Id: acacia_trapdoor
+cherry_trapdoor:
+  Id: cherry_trapdoor
+dark_oak_trapdoor:
+  Id: dark_oak_trapdoor
+mangrove_trapdoor:
+  Id: mangrove_trapdoor
+bamboo_trapdoor:
+  Id: bamboo_trapdoor
+crimson_trapdoor:
+  Id: crimson_trapdoor
+warped_trapdoor:
+  Id: warped_trapdoor
+copper_trapdoor:
+  Id: copper_trapdoor
+exposed_copper_trapdoor:
+  Id: exposed_copper_trapdoor
+weathered_copper_trapdoor:
+  Id: weathered_copper_trapdoor
+oxidized_copper_trapdoor:
+  Id: oxidized_copper_trapdoor
+waxed_copper_trapdoor:
+  Id: waxed_copper_trapdoor
+waxed_exposed_copper_trapdoor:
+  Id: waxed_exposed_copper_trapdoor
+waxed_weathered_copper_trapdoor:
+  Id: waxed_weathered_copper_trapdoor
+waxed_oxidized_copper_trapdoor:
+  Id: waxed_oxidized_copper_trapdoor
+oak_fence_gate:
+  Id: oak_fence_gate
+spruce_fence_gate:
+  Id: spruce_fence_gate
+birch_fence_gate:
+  Id: birch_fence_gate
+jungle_fence_gate:
+  Id: jungle_fence_gate
+acacia_fence_gate:
+  Id: acacia_fence_gate
+cherry_fence_gate:
+  Id: cherry_fence_gate
+dark_oak_fence_gate:
+  Id: dark_oak_fence_gate
+mangrove_fence_gate:
+  Id: mangrove_fence_gate
+bamboo_fence_gate:
+  Id: bamboo_fence_gate
+crimson_fence_gate:
+  Id: crimson_fence_gate
+warped_fence_gate:
+  Id: warped_fence_gate
+powered_rail:
+  Id: powered_rail
+detector_rail:
+  Id: detector_rail
+rail:
+  Id: rail
+activator_rail:
+  Id: activator_rail
+saddle:
+  Id: saddle
+minecart:
+  Id: minecart
+chest_minecart:
+  Id: chest_minecart
+furnace_minecart:
+  Id: furnace_minecart
+tnt_minecart:
+  Id: tnt_minecart
+hopper_minecart:
+  Id: hopper_minecart
+carrot_on_a_stick:
+  Id: carrot_on_a_stick
+warped_fungus_on_a_stick:
+  Id: warped_fungus_on_a_stick
+elytra:
+  Id: elytra
+oak_boat:
+  Id: oak_boat
+oak_chest_boat:
+  Id: oak_chest_boat
+spruce_boat:
+  Id: spruce_boat
+spruce_chest_boat:
+  Id: spruce_chest_boat
+birch_boat:
+  Id: birch_boat
+birch_chest_boat:
+  Id: birch_chest_boat
+jungle_boat:
+  Id: jungle_boat
+jungle_chest_boat:
+  Id: jungle_chest_boat
+acacia_boat:
+  Id: acacia_boat
+acacia_chest_boat:
+  Id: acacia_chest_boat
+cherry_boat:
+  Id: cherry_boat
+cherry_chest_boat:
+  Id: cherry_chest_boat
+dark_oak_boat:
+  Id: dark_oak_boat
+dark_oak_chest_boat:
+  Id: dark_oak_chest_boat
+mangrove_boat:
+  Id: mangrove_boat
+mangrove_chest_boat:
+  Id: mangrove_chest_boat
+bamboo_raft:
+  Id: bamboo_raft
+bamboo_chest_raft:
+  Id: bamboo_chest_raft
+structure_block:
+  Id: structure_block
+jigsaw:
+  Id: jigsaw
+turtle_helmet:
+  Id: turtle_helmet
+turtle_scute:
+  Id: turtle_scute
+armadillo_scute:
+  Id: armadillo_scute
+wolf_armor:
+  Id: wolf_armor
+flint_and_steel:
+  Id: flint_and_steel
+bowl:
+  Id: bowl
+apple:
+  Id: apple
+bow:
+  Id: bow
+arrow:
+  Id: arrow
+coal:
+  Id: coal
+charcoal:
+  Id: charcoal
+diamond:
+  Id: diamond
+emerald:
+  Id: emerald
+lapis_lazuli:
+  Id: lapis_lazuli
+quartz:
+  Id: quartz
+amethyst_shard:
+  Id: amethyst_shard
+raw_iron:
+  Id: raw_iron
+iron_ingot:
+  Id: iron_ingot
+raw_copper:
+  Id: raw_copper
+copper_ingot:
+  Id: copper_ingot
+raw_gold:
+  Id: raw_gold
+gold_ingot:
+  Id: gold_ingot
+netherite_ingot:
+  Id: netherite_ingot
+netherite_scrap:
+  Id: netherite_scrap
+wooden_sword:
+  Id: wooden_sword
+wooden_shovel:
+  Id: wooden_shovel
+wooden_pickaxe:
+  Id: wooden_pickaxe
+wooden_axe:
+  Id: wooden_axe
+wooden_hoe:
+  Id: wooden_hoe
+stone_sword:
+  Id: stone_sword
+stone_shovel:
+  Id: stone_shovel
+stone_pickaxe:
+  Id: stone_pickaxe
+stone_axe:
+  Id: stone_axe
+stone_hoe:
+  Id: stone_hoe
+golden_sword:
+  Id: golden_sword
+golden_shovel:
+  Id: golden_shovel
+golden_pickaxe:
+  Id: golden_pickaxe
+golden_axe:
+  Id: golden_axe
+golden_hoe:
+  Id: golden_hoe
+iron_sword:
+  Id: iron_sword
+iron_shovel:
+  Id: iron_shovel
+iron_pickaxe:
+  Id: iron_pickaxe
+iron_axe:
+  Id: iron_axe
+iron_hoe:
+  Id: iron_hoe
+diamond_sword:
+  Id: diamond_sword
+diamond_shovel:
+  Id: diamond_shovel
+diamond_pickaxe:
+  Id: diamond_pickaxe
+diamond_axe:
+  Id: diamond_axe
+diamond_hoe:
+  Id: diamond_hoe
+netherite_sword:
+  Id: netherite_sword
+netherite_shovel:
+  Id: netherite_shovel
+netherite_pickaxe:
+  Id: netherite_pickaxe
+netherite_axe:
+  Id: netherite_axe
+netherite_hoe:
+  Id: netherite_hoe
+stick:
+  Id: stick
+mushroom_stew:
+  Id: mushroom_stew
+string:
+  Id: string
+feather:
+  Id: feather
+gunpowder:
+  Id: gunpowder
+wheat_seeds:
+  Id: wheat_seeds
+wheat:
+  Id: wheat
+bread:
+  Id: bread
+leather_helmet:
+  Id: leather_helmet
+leather_chestplate:
+  Id: leather_chestplate
+leather_leggings:
+  Id: leather_leggings
+leather_boots:
+  Id: leather_boots
+chainmail_helmet:
+  Id: chainmail_helmet
+chainmail_chestplate:
+  Id: chainmail_chestplate
+chainmail_leggings:
+  Id: chainmail_leggings
+chainmail_boots:
+  Id: chainmail_boots
+iron_helmet:
+  Id: iron_helmet
+iron_chestplate:
+  Id: iron_chestplate
+iron_leggings:
+  Id: iron_leggings
+iron_boots:
+  Id: iron_boots
+diamond_helmet:
+  Id: diamond_helmet
+diamond_chestplate:
+  Id: diamond_chestplate
+diamond_leggings:
+  Id: diamond_leggings
+diamond_boots:
+  Id: diamond_boots
+golden_helmet:
+  Id: golden_helmet
+golden_chestplate:
+  Id: golden_chestplate
+golden_leggings:
+  Id: golden_leggings
+golden_boots:
+  Id: golden_boots
+netherite_helmet:
+  Id: netherite_helmet
+netherite_chestplate:
+  Id: netherite_chestplate
+netherite_leggings:
+  Id: netherite_leggings
+netherite_boots:
+  Id: netherite_boots
+flint:
+  Id: flint
+porkchop:
+  Id: porkchop
+cooked_porkchop:
+  Id: cooked_porkchop
+painting:
+  Id: painting
+golden_apple:
+  Id: golden_apple
+enchanted_golden_apple:
+  Id: enchanted_golden_apple
+oak_sign:
+  Id: oak_sign
+spruce_sign:
+  Id: spruce_sign
+birch_sign:
+  Id: birch_sign
+jungle_sign:
+  Id: jungle_sign
+acacia_sign:
+  Id: acacia_sign
+cherry_sign:
+  Id: cherry_sign
+dark_oak_sign:
+  Id: dark_oak_sign
+mangrove_sign:
+  Id: mangrove_sign
+bamboo_sign:
+  Id: bamboo_sign
+crimson_sign:
+  Id: crimson_sign
+warped_sign:
+  Id: warped_sign
+oak_hanging_sign:
+  Id: oak_hanging_sign
+spruce_hanging_sign:
+  Id: spruce_hanging_sign
+birch_hanging_sign:
+  Id: birch_hanging_sign
+jungle_hanging_sign:
+  Id: jungle_hanging_sign
+acacia_hanging_sign:
+  Id: acacia_hanging_sign
+cherry_hanging_sign:
+  Id: cherry_hanging_sign
+dark_oak_hanging_sign:
+  Id: dark_oak_hanging_sign
+mangrove_hanging_sign:
+  Id: mangrove_hanging_sign
+bamboo_hanging_sign:
+  Id: bamboo_hanging_sign
+crimson_hanging_sign:
+  Id: crimson_hanging_sign
+warped_hanging_sign:
+  Id: warped_hanging_sign
+bucket:
+  Id: bucket
+water_bucket:
+  Id: water_bucket
+lava_bucket:
+  Id: lava_bucket
+powder_snow_bucket:
+  Id: powder_snow_bucket
+snowball:
+  Id: snowball
+leather:
+  Id: leather
+milk_bucket:
+  Id: milk_bucket
+pufferfish_bucket:
+  Id: pufferfish_bucket
+salmon_bucket:
+  Id: salmon_bucket
+cod_bucket:
+  Id: cod_bucket
+tropical_fish_bucket:
+  Id: tropical_fish_bucket
+axolotl_bucket:
+  Id: axolotl_bucket
+tadpole_bucket:
+  Id: tadpole_bucket
+brick:
+  Id: brick
+clay_ball:
+  Id: clay_ball
+dried_kelp_block:
+  Id: dried_kelp_block
+paper:
+  Id: paper
+book:
+  Id: book
+slime_ball:
+  Id: slime_ball
+egg:
+  Id: egg
+compass:
+  Id: compass
+recovery_compass:
+  Id: recovery_compass
+bundle:
+  Id: bundle
+fishing_rod:
+  Id: fishing_rod
+clock:
+  Id: clock
+spyglass:
+  Id: spyglass
+glowstone_dust:
+  Id: glowstone_dust
+cod:
+  Id: cod
+salmon:
+  Id: salmon
+tropical_fish:
+  Id: tropical_fish
+pufferfish:
+  Id: pufferfish
+cooked_cod:
+  Id: cooked_cod
+cooked_salmon:
+  Id: cooked_salmon
+ink_sac:
+  Id: ink_sac
+glow_ink_sac:
+  Id: glow_ink_sac
+cocoa_beans:
+  Id: cocoa_beans
+white_dye:
+  Id: white_dye
+orange_dye:
+  Id: orange_dye
+magenta_dye:
+  Id: magenta_dye
+light_blue_dye:
+  Id: light_blue_dye
+yellow_dye:
+  Id: yellow_dye
+lime_dye:
+  Id: lime_dye
+pink_dye:
+  Id: pink_dye
+gray_dye:
+  Id: gray_dye
+light_gray_dye:
+  Id: light_gray_dye
+cyan_dye:
+  Id: cyan_dye
+purple_dye:
+  Id: purple_dye
+blue_dye:
+  Id: blue_dye
+brown_dye:
+  Id: brown_dye
+green_dye:
+  Id: green_dye
+red_dye:
+  Id: red_dye
+black_dye:
+  Id: black_dye
+bone_meal:
+  Id: bone_meal
+bone:
+  Id: bone
+sugar:
+  Id: sugar
+cake:
+  Id: cake
+white_bed:
+  Id: white_bed
+orange_bed:
+  Id: orange_bed
+magenta_bed:
+  Id: magenta_bed
+light_blue_bed:
+  Id: light_blue_bed
+yellow_bed:
+  Id: yellow_bed
+lime_bed:
+  Id: lime_bed
+pink_bed:
+  Id: pink_bed
+gray_bed:
+  Id: gray_bed
+light_gray_bed:
+  Id: light_gray_bed
+cyan_bed:
+  Id: cyan_bed
+purple_bed:
+  Id: purple_bed
+blue_bed:
+  Id: blue_bed
+brown_bed:
+  Id: brown_bed
+green_bed:
+  Id: green_bed
+red_bed:
+  Id: red_bed
+black_bed:
+  Id: black_bed
+cookie:
+  Id: cookie
+crafter:
+  Id: crafter
+filled_map:
+  Id: filled_map
+shears:
+  Id: shears
+melon_slice:
+  Id: melon_slice
+dried_kelp:
+  Id: dried_kelp
+pumpkin_seeds:
+  Id: pumpkin_seeds
+melon_seeds:
+  Id: melon_seeds
+beef:
+  Id: beef
+cooked_beef:
+  Id: cooked_beef
+chicken:
+  Id: chicken
+cooked_chicken:
+  Id: cooked_chicken
+rotten_flesh:
+  Id: rotten_flesh
+ender_pearl:
+  Id: ender_pearl
+blaze_rod:
+  Id: blaze_rod
+ghast_tear:
+  Id: ghast_tear
+gold_nugget:
+  Id: gold_nugget
+nether_wart:
+  Id: nether_wart
+potion:
+  Id: potion
+glass_bottle:
+  Id: glass_bottle
+spider_eye:
+  Id: spider_eye
+fermented_spider_eye:
+  Id: fermented_spider_eye
+blaze_powder:
+  Id: blaze_powder
+magma_cream:
+  Id: magma_cream
+brewing_stand:
+  Id: brewing_stand
+cauldron:
+  Id: cauldron
+ender_eye:
+  Id: ender_eye
+glistering_melon_slice:
+  Id: glistering_melon_slice
+armadillo_spawn_egg:
+  Id: armadillo_spawn_egg
+allay_spawn_egg:
+  Id: allay_spawn_egg
+axolotl_spawn_egg:
+  Id: axolotl_spawn_egg
+bat_spawn_egg:
+  Id: bat_spawn_egg
+bee_spawn_egg:
+  Id: bee_spawn_egg
+blaze_spawn_egg:
+  Id: blaze_spawn_egg
+bogged_spawn_egg:
+  Id: bogged_spawn_egg
+breeze_spawn_egg:
+  Id: breeze_spawn_egg
+cat_spawn_egg:
+  Id: cat_spawn_egg
+camel_spawn_egg:
+  Id: camel_spawn_egg
+cave_spider_spawn_egg:
+  Id: cave_spider_spawn_egg
+chicken_spawn_egg:
+  Id: chicken_spawn_egg
+cod_spawn_egg:
+  Id: cod_spawn_egg
+cow_spawn_egg:
+  Id: cow_spawn_egg
+creeper_spawn_egg:
+  Id: creeper_spawn_egg
+dolphin_spawn_egg:
+  Id: dolphin_spawn_egg
+donkey_spawn_egg:
+  Id: donkey_spawn_egg
+drowned_spawn_egg:
+  Id: drowned_spawn_egg
+elder_guardian_spawn_egg:
+  Id: elder_guardian_spawn_egg
+ender_dragon_spawn_egg:
+  Id: ender_dragon_spawn_egg
+enderman_spawn_egg:
+  Id: enderman_spawn_egg
+endermite_spawn_egg:
+  Id: endermite_spawn_egg
+evoker_spawn_egg:
+  Id: evoker_spawn_egg
+fox_spawn_egg:
+  Id: fox_spawn_egg
+frog_spawn_egg:
+  Id: frog_spawn_egg
+ghast_spawn_egg:
+  Id: ghast_spawn_egg
+glow_squid_spawn_egg:
+  Id: glow_squid_spawn_egg
+goat_spawn_egg:
+  Id: goat_spawn_egg
+guardian_spawn_egg:
+  Id: guardian_spawn_egg
+hoglin_spawn_egg:
+  Id: hoglin_spawn_egg
+horse_spawn_egg:
+  Id: horse_spawn_egg
+husk_spawn_egg:
+  Id: husk_spawn_egg
+iron_golem_spawn_egg:
+  Id: iron_golem_spawn_egg
+llama_spawn_egg:
+  Id: llama_spawn_egg
+magma_cube_spawn_egg:
+  Id: magma_cube_spawn_egg
+mooshroom_spawn_egg:
+  Id: mooshroom_spawn_egg
+mule_spawn_egg:
+  Id: mule_spawn_egg
+ocelot_spawn_egg:
+  Id: ocelot_spawn_egg
+panda_spawn_egg:
+  Id: panda_spawn_egg
+parrot_spawn_egg:
+  Id: parrot_spawn_egg
+phantom_spawn_egg:
+  Id: phantom_spawn_egg
+pig_spawn_egg:
+  Id: pig_spawn_egg
+piglin_spawn_egg:
+  Id: piglin_spawn_egg
+piglin_brute_spawn_egg:
+  Id: piglin_brute_spawn_egg
+pillager_spawn_egg:
+  Id: pillager_spawn_egg
+  NBT:
+   PublicBukkitValues:
+    　mmo:selled_item: 0.5
+polar_bear_spawn_egg:
+  Id: polar_bear_spawn_egg
+pufferfish_spawn_egg:
+  Id: pufferfish_spawn_egg
+rabbit_spawn_egg:
+  Id: rabbit_spawn_egg
+ravager_spawn_egg:
+  Id: ravager_spawn_egg
+salmon_spawn_egg:
+  Id: salmon_spawn_egg
+sheep_spawn_egg:
+  Id: sheep_spawn_egg
+shulker_spawn_egg:
+  Id: shulker_spawn_egg
+silverfish_spawn_egg:
+  Id: silverfish_spawn_egg
+skeleton_spawn_egg:
+  Id: skeleton_spawn_egg
+skeleton_horse_spawn_egg:
+  Id: skeleton_horse_spawn_egg
+slime_spawn_egg:
+  Id: slime_spawn_egg
+sniffer_spawn_egg:
+  Id: sniffer_spawn_egg
+snow_golem_spawn_egg:
+  Id: snow_golem_spawn_egg
+spider_spawn_egg:
+  Id: spider_spawn_egg
+squid_spawn_egg:
+  Id: squid_spawn_egg
+stray_spawn_egg:
+  Id: stray_spawn_egg
+strider_spawn_egg:
+  Id: strider_spawn_egg
+tadpole_spawn_egg:
+  Id: tadpole_spawn_egg
+trader_llama_spawn_egg:
+  Id: trader_llama_spawn_egg
+tropical_fish_spawn_egg:
+  Id: tropical_fish_spawn_egg
+turtle_spawn_egg:
+  Id: turtle_spawn_egg
+vex_spawn_egg:
+  Id: vex_spawn_egg
+villager_spawn_egg:
+  Id: villager_spawn_egg
+vindicator_spawn_egg:
+  Id: vindicator_spawn_egg
+wandering_trader_spawn_egg:
+  Id: wandering_trader_spawn_egg
+warden_spawn_egg:
+  Id: warden_spawn_egg
+witch_spawn_egg:
+  Id: witch_spawn_egg
+wither_spawn_egg:
+  Id: wither_spawn_egg
+wither_skeleton_spawn_egg:
+  Id: wither_skeleton_spawn_egg
+wolf_spawn_egg:
+  Id: wolf_spawn_egg
+zoglin_spawn_egg:
+  Id: zoglin_spawn_egg
+zombie_spawn_egg:
+  Id: zombie_spawn_egg
+zombie_horse_spawn_egg:
+  Id: zombie_horse_spawn_egg
+zombie_villager_spawn_egg:
+  Id: zombie_villager_spawn_egg
+zombified_piglin_spawn_egg:
+  Id: zombified_piglin_spawn_egg
+experience_bottle:
+  Id: experience_bottle
+fire_charge:
+  Id: fire_charge
+wind_charge:
+  Id: wind_charge
+writable_book:
+  Id: writable_book
+written_book:
+  Id: written_book
+mace:
+  Id: mace
+item_frame:
+  Id: item_frame
+glow_item_frame:
+  Id: glow_item_frame
+flower_pot:
+  Id: flower_pot
+carrot:
+  Id: carrot
+potato:
+  Id: potato
+baked_potato:
+  Id: baked_potato
+poisonous_potato:
+  Id: poisonous_potato
+map:
+  Id: map
+golden_carrot:
+  Id: golden_carrot
+skeleton_skull:
+  Id: skeleton_skull
+wither_skeleton_skull:
+  Id: wither_skeleton_skull
+player_head:
+  Id: player_head
+zombie_head:
+  Id: zombie_head
+creeper_head:
+  Id: creeper_head
+dragon_head:
+  Id: dragon_head
+piglin_head:
+  Id: piglin_head
+nether_star:
+  Id: nether_star
+pumpkin_pie:
+  Id: pumpkin_pie
+firework_rocket:
+  Id: firework_rocket
+firework_star:
+  Id: firework_star
+enchanted_book:
+  Id: enchanted_book
+nether_brick:
+  Id: nether_brick
+prismarine_shard:
+  Id: prismarine_shard
+prismarine_crystals:
+  Id: prismarine_crystals
+rabbit:
+  Id: rabbit
+cooked_rabbit:
+  Id: cooked_rabbit
+rabbit_stew:
+  Id: rabbit_stew
+rabbit_foot:
+  Id: rabbit_foot
+rabbit_hide:
+  Id: rabbit_hide
+armor_stand:
+  Id: armor_stand
+iron_horse_armor:
+  Id: iron_horse_armor
+golden_horse_armor:
+  Id: golden_horse_armor
+diamond_horse_armor:
+  Id: diamond_horse_armor
+leather_horse_armor:
+  Id: leather_horse_armor
+lead:
+  Id: lead
+name_tag:
+  Id: name_tag
+command_block_minecart:
+  Id: command_block_minecart
+mutton:
+  Id: mutton
+cooked_mutton:
+  Id: cooked_mutton
+white_banner:
+  Id: white_banner
+orange_banner:
+  Id: orange_banner
+magenta_banner:
+  Id: magenta_banner
+light_blue_banner:
+  Id: light_blue_banner
+yellow_banner:
+  Id: yellow_banner
+lime_banner:
+  Id: lime_banner
+pink_banner:
+  Id: pink_banner
+gray_banner:
+  Id: gray_banner
+light_gray_banner:
+  Id: light_gray_banner
+cyan_banner:
+  Id: cyan_banner
+purple_banner:
+  Id: purple_banner
+blue_banner:
+  Id: blue_banner
+brown_banner:
+  Id: brown_banner
+green_banner:
+  Id: green_banner
+red_banner:
+  Id: red_banner
+black_banner:
+  Id: black_banner
+end_crystal:
+  Id: end_crystal
+chorus_fruit:
+  Id: chorus_fruit
+popped_chorus_fruit:
+  Id: popped_chorus_fruit
+torchflower_seeds:
+  Id: torchflower_seeds
+pitcher_pod:
+  Id: pitcher_pod
+beetroot:
+  Id: beetroot
+beetroot_seeds:
+  Id: beetroot_seeds
+beetroot_soup:
+  Id: beetroot_soup
+dragon_breath:
+  Id: dragon_breath
+splash_potion:
+  Id: splash_potion
+spectral_arrow:
+  Id: spectral_arrow
+tipped_arrow:
+  Id: tipped_arrow
+lingering_potion:
+  Id: lingering_potion
+shield:
+  Id: shield
+totem_of_undying:
+  Id: totem_of_undying
+shulker_shell:
+  Id: shulker_shell
+iron_nugget:
+  Id: iron_nugget
+knowledge_book:
+  Id: knowledge_book
+debug_stick:
+  Id: debug_stick
+music_disc_13:
+  Id: music_disc_13
+music_disc_cat:
+  Id: music_disc_cat
+music_disc_blocks:
+  Id: music_disc_blocks
+music_disc_chirp:
+  Id: music_disc_chirp
+music_disc_creator:
+  Id: music_disc_creator
+music_disc_creator_music_box:
+  Id: music_disc_creator_music_box
+music_disc_far:
+  Id: music_disc_far
+music_disc_mall:
+  Id: music_disc_mall
+music_disc_mellohi:
+  Id: music_disc_mellohi
+music_disc_stal:
+  Id: music_disc_stal
+music_disc_strad:
+  Id: music_disc_strad
+music_disc_ward:
+  Id: music_disc_ward
+music_disc_11:
+  Id: music_disc_11
+music_disc_wait:
+  Id: music_disc_wait
+music_disc_otherside:
+  Id: music_disc_otherside
+music_disc_relic:
+  Id: music_disc_relic
+music_disc_5:
+  Id: music_disc_5
+music_disc_pigstep:
+  Id: music_disc_pigstep
+music_disc_precipice:
+  Id: music_disc_precipice
+disc_fragment_5:
+  Id: disc_fragment_5
+trident:
+  Id: trident
+phantom_membrane:
+  Id: phantom_membrane
+nautilus_shell:
+  Id: nautilus_shell
+heart_of_the_sea:
+  Id: heart_of_the_sea
+crossbow:
+  Id: crossbow
+suspicious_stew:
+  Id: suspicious_stew
+loom:
+  Id: loom
+flower_banner_pattern:
+  Id: flower_banner_pattern
+creeper_banner_pattern:
+  Id: creeper_banner_pattern
+skull_banner_pattern:
+  Id: skull_banner_pattern
+mojang_banner_pattern:
+  Id: mojang_banner_pattern
+globe_banner_pattern:
+  Id: globe_banner_pattern
+piglin_banner_pattern:
+  Id: piglin_banner_pattern
+flow_banner_pattern:
+  Id: flow_banner_pattern
+guster_banner_pattern:
+  Id: guster_banner_pattern
+goat_horn:
+  Id: goat_horn
+composter:
+  Id: composter
+barrel:
+  Id: barrel
+smoker:
+  Id: smoker
+blast_furnace:
+  Id: blast_furnace
+cartography_table:
+  Id: cartography_table
+fletching_table:
+  Id: fletching_table
+grindstone:
+  Id: grindstone
+smithing_table:
+  Id: smithing_table
+stonecutter:
+  Id: stonecutter
+bell:
+  Id: bell
+lantern:
+  Id: lantern
+soul_lantern:
+  Id: soul_lantern
+sweet_berries:
+  Id: sweet_berries
+glow_berries:
+  Id: glow_berries
+campfire:
+  Id: campfire
+soul_campfire:
+  Id: soul_campfire
+shroomlight:
+  Id: shroomlight
+honeycomb:
+  Id: honeycomb
+bee_nest:
+  Id: bee_nest
+beehive:
+  Id: beehive
+honey_bottle:
+  Id: honey_bottle
+honeycomb_block:
+  Id: honeycomb_block
+lodestone:
+  Id: lodestone
+crying_obsidian:
+  Id: crying_obsidian
+blackstone:
+  Id: blackstone
+blackstone_slab:
+  Id: blackstone_slab
+blackstone_stairs:
+  Id: blackstone_stairs
+gilded_blackstone:
+  Id: gilded_blackstone
+polished_blackstone:
+  Id: polished_blackstone
+polished_blackstone_slab:
+  Id: polished_blackstone_slab
+polished_blackstone_stairs:
+  Id: polished_blackstone_stairs
+chiseled_polished_blackstone:
+  Id: chiseled_polished_blackstone
+polished_blackstone_bricks:
+  Id: polished_blackstone_bricks
+polished_blackstone_brick_slab:
+  Id: polished_blackstone_brick_slab
+polished_blackstone_brick_stairs:
+  Id: polished_blackstone_brick_stairs
+cracked_polished_blackstone_bricks:
+  Id: cracked_polished_blackstone_bricks
+respawn_anchor:
+  Id: respawn_anchor
+candle:
+  Id: candle
+white_candle:
+  Id: white_candle
+orange_candle:
+  Id: orange_candle
+magenta_candle:
+  Id: magenta_candle
+light_blue_candle:
+  Id: light_blue_candle
+yellow_candle:
+  Id: yellow_candle
+lime_candle:
+  Id: lime_candle
+pink_candle:
+  Id: pink_candle
+gray_candle:
+  Id: gray_candle
+light_gray_candle:
+  Id: light_gray_candle
+cyan_candle:
+  Id: cyan_candle
+purple_candle:
+  Id: purple_candle
+blue_candle:
+  Id: blue_candle
+brown_candle:
+  Id: brown_candle
+green_candle:
+  Id: green_candle
+red_candle:
+  Id: red_candle
+black_candle:
+  Id: black_candle
+small_amethyst_bud:
+  Id: small_amethyst_bud
+medium_amethyst_bud:
+  Id: medium_amethyst_bud
+large_amethyst_bud:
+  Id: large_amethyst_bud
+amethyst_cluster:
+  Id: amethyst_cluster
+pointed_dripstone:
+  Id: pointed_dripstone
+ochre_froglight:
+  Id: ochre_froglight
+verdant_froglight:
+  Id: verdant_froglight
+pearlescent_froglight:
+  Id: pearlescent_froglight
+frogspawn:
+  Id: frogspawn
+echo_shard:
+  Id: echo_shard
+brush:
+  Id: brush
+netherite_upgrade_smithing_template:
+  Id: netherite_upgrade_smithing_template
+sentry_armor_trim_smithing_template:
+  Id: sentry_armor_trim_smithing_template
+dune_armor_trim_smithing_template:
+  Id: dune_armor_trim_smithing_template
+coast_armor_trim_smithing_template:
+  Id: coast_armor_trim_smithing_template
+wild_armor_trim_smithing_template:
+  Id: wild_armor_trim_smithing_template
+ward_armor_trim_smithing_template:
+  Id: ward_armor_trim_smithing_template
+eye_armor_trim_smithing_template:
+  Id: eye_armor_trim_smithing_template
+vex_armor_trim_smithing_template:
+  Id: vex_armor_trim_smithing_template
+tide_armor_trim_smithing_template:
+  Id: tide_armor_trim_smithing_template
+snout_armor_trim_smithing_template:
+  Id: snout_armor_trim_smithing_template
+rib_armor_trim_smithing_template:
+  Id: rib_armor_trim_smithing_template
+spire_armor_trim_smithing_template:
+  Id: spire_armor_trim_smithing_template
+wayfinder_armor_trim_smithing_template:
+  Id: wayfinder_armor_trim_smithing_template
+shaper_armor_trim_smithing_template:
+  Id: shaper_armor_trim_smithing_template
+silence_armor_trim_smithing_template:
+  Id: silence_armor_trim_smithing_template
+raiser_armor_trim_smithing_template:
+  Id: raiser_armor_trim_smithing_template
+host_armor_trim_smithing_template:
+  Id: host_armor_trim_smithing_template
+flow_armor_trim_smithing_template:
+  Id: flow_armor_trim_smithing_template
+bolt_armor_trim_smithing_template:
+  Id: bolt_armor_trim_smithing_template
+angler_pottery_sherd:
+  Id: angler_pottery_sherd
+archer_pottery_sherd:
+  Id: archer_pottery_sherd
+arms_up_pottery_sherd:
+  Id: arms_up_pottery_sherd
+blade_pottery_sherd:
+  Id: blade_pottery_sherd
+brewer_pottery_sherd:
+  Id: brewer_pottery_sherd
+burn_pottery_sherd:
+  Id: burn_pottery_sherd
+danger_pottery_sherd:
+  Id: danger_pottery_sherd
+explorer_pottery_sherd:
+  Id: explorer_pottery_sherd
+flow_pottery_sherd:
+  Id: flow_pottery_sherd
+friend_pottery_sherd:
+  Id: friend_pottery_sherd
+guster_pottery_sherd:
+  Id: guster_pottery_sherd
+heart_pottery_sherd:
+  Id: heart_pottery_sherd
+heartbreak_pottery_sherd:
+  Id: heartbreak_pottery_sherd
+howl_pottery_sherd:
+  Id: howl_pottery_sherd
+miner_pottery_sherd:
+  Id: miner_pottery_sherd
+mourner_pottery_sherd:
+  Id: mourner_pottery_sherd
+plenty_pottery_sherd:
+  Id: plenty_pottery_sherd
+prize_pottery_sherd:
+  Id: prize_pottery_sherd
+scrape_pottery_sherd:
+  Id: scrape_pottery_sherd
+sheaf_pottery_sherd:
+  Id: sheaf_pottery_sherd
+shelter_pottery_sherd:
+  Id: shelter_pottery_sherd
+skull_pottery_sherd:
+  Id: skull_pottery_sherd
+snort_pottery_sherd:
+  Id: snort_pottery_sherd
+copper_grate:
+  Id: copper_grate
+exposed_copper_grate:
+  Id: exposed_copper_grate
+weathered_copper_grate:
+  Id: weathered_copper_grate
+oxidized_copper_grate:
+  Id: oxidized_copper_grate
+waxed_copper_grate:
+  Id: waxed_copper_grate
+waxed_exposed_copper_grate:
+  Id: waxed_exposed_copper_grate
+waxed_weathered_copper_grate:
+  Id: waxed_weathered_copper_grate
+waxed_oxidized_copper_grate:
+  Id: waxed_oxidized_copper_grate
+copper_bulb:
+  Id: copper_bulb
+exposed_copper_bulb:
+  Id: exposed_copper_bulb
+weathered_copper_bulb:
+  Id: weathered_copper_bulb
+oxidized_copper_bulb:
+  Id: oxidized_copper_bulb
+waxed_copper_bulb:
+  Id: waxed_copper_bulb
+waxed_exposed_copper_bulb:
+  Id: waxed_exposed_copper_bulb
+waxed_weathered_copper_bulb:
+  Id: waxed_weathered_copper_bulb
+waxed_oxidized_copper_bulb:
+  Id: waxed_oxidized_copper_bulb
+trial_spawner:
+  Id: trial_spawner
+trial_key:
+  Id: trial_key
+ominous_trial_key:
+  Id: ominous_trial_key
+vault:
+  Id: vault
+ominous_bottle:
+  Id: ominous_bottle
+breeze_rod:
+  Id: breeze_rod

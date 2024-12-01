@@ -1,0 +1,33 @@
+OpenField_Enemy_雪狼_asobi_tai:
+  Template:  OpenField_Enemy_Base_MCLove32
+  Display: 雪狼
+  Health: 30
+  Damage: 6
+  Type: WOLF
+  Options:
+    FollowRange: 10
+    Scale: 1.5
+    MovementSpeed: 0.5
+    KnockbackResistance: 0.5
+    AttackSpeed: 1.5
+  Skills:
+  - freeze{ticks=400} @trigger ~onAttack
+  - skill{s=OpenField_Enemy_雪狼_asobi_tai2} @Trigger ~onDamaged 
+  - skill{s=OpenField_Enemy_雪狼_asobi_tai1} @TL ~onEntercombat  
+  - skill{s=OpenField_Enemy_雪狼_asobi_tai} @TL ~onEntercombat 
+OpenField_Enemy_大雪狼_asobi_tai:
+  Template: OpenField_Enemy_Base_MCLove32
+  Display: 大雪狼
+  Health: 200
+  Damage: 10
+  Type: WOLF
+  Options:
+   FollowRange: 20
+   Scale: 2.5
+   MovementSpeed: 1
+   KnockbackResistance: 0.75
+   AttackSpeed: 2
+  Skills:
+  - freeze{ticks=800} @trigger ~onAttack 
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai1} @trigger ~onDamaged 
+  - skill{s=OpenField_Enemy_大雪狼_asobi_tai2} @target ~onEntercombat 
