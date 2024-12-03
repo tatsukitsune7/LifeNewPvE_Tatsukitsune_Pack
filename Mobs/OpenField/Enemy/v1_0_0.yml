@@ -5,6 +5,8 @@ OpenField_Enemy_test_Tatsukitsune7:
   Damage: 10
   Faction: Enemy
   Type: Husk
+  DamageModifiers:
+  - FALL 0
   Options:
    FollowRange: 20
    Scale: 1
