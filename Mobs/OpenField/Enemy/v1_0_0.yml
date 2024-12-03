@@ -14,5 +14,5 @@ OpenField_Enemy_test_Tatsukitsune7:
    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills: 
-  - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:100
-  - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @self ~onTimer:200
+  - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:200
+  - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @self ~onTimer:60
