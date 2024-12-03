@@ -16,5 +16,5 @@ OpenField_Enemy_test_Tatsukitsune7:
   Skills: 
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:200
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @target ~onTimer:60
-    - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills3} @target =50%
+    - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills3} @target ~onTimer :460
   
