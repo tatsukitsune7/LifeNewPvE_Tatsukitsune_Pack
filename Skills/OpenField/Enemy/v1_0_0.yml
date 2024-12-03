@@ -1,7 +1,7 @@
 OpenField_Enemy_test_Tatsukitsune7_Skills:
   Skills:
-  - Lunge{velocity=15;velocityY=5} @Self
-  - delay 20
+  - Lunge{velocity=15;velocityY=1} @Self
+  - delay 10
   - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Soul} ];roll=<random.-45to45>;oH=[ - damage{a=20;pi=true;ii=true} ];repeat=2;repeati=10} @self 
   - sound{s=item.totem.use;v=0.1;p=0.8} @self{}
 OpenField_Enemy_test_Tatsukitsune7_Skills2:
