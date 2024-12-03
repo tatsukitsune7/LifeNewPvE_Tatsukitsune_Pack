@@ -13,4 +13,3 @@ OpenField_Enemy_test_Tatsukitsune7:
    AttackSpeed: 2
   Skills: 
   - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:100
-  - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @self ~onTimer:200
