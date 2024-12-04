@@ -23,7 +23,7 @@ OpenField_Enemy_testtt_Tatsukitsune7:
   Health: 16
   Damage: 10
   Faction: Enemy
-  Type: Husk
+  Type: silverfish
   DamageModifiers:
   - FALL 0
   Options:
