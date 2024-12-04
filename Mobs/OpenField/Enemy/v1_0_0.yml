@@ -17,9 +17,9 @@ OpenField_Enemy_test_Tatsukitsune7:
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:200
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @target ~onTimer:80
 
-OpenField_Enemy_testtt_Tatsukitsune7:
+OpenField_Enemy_サソリ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
-  Display: testttt
+  Display: "&aサソリ"
   Health: 18
   Damage: 6
   Faction: Enemy
