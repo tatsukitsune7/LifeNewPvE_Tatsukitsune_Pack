@@ -32,5 +32,3 @@ OpenField_Enemy_サソリ_Tatsukitsune7:
     MovementSpeed:0.8
     KnockbackResistance:0.75
     AttackSpeed: 2
-  Skills:
-    - skill{s=OpenField_Enemy_サソリ_Tatsukitsune7_Skills} @target ~onTimer:80
