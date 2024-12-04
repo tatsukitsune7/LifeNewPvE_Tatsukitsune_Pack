@@ -16,7 +16,6 @@ OpenField_Enemy_test_Tatsukitsune7:
   Skills: 
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:200
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @target ~onTimer:80
-
 OpenField_Enemy_サソリ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
   Display: サソリ
