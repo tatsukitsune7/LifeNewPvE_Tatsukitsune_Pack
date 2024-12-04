@@ -23,5 +23,5 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills:
 
 OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
   Skills:
-  - damage{a=20;pi=true;ii=true}
+  - damage{a=15;pi=true;ii=true}
   - potion{t=SLOWNESS;d=10;l=9}
