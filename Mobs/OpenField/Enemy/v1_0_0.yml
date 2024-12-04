@@ -16,6 +16,7 @@ OpenField_Enemy_test_Tatsukitsune7:
   Skills: 
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:200
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @target ~onTimer:80
+
 OpenField_Enemy_サソリ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
   Display: サソリ
@@ -23,6 +24,11 @@ OpenField_Enemy_サソリ_Tatsukitsune7:
   Damage: 4
   Faction: Enemy
   Type: SILVERFISH
+  AITargetSelectors:
+  - clear
+  - attacker
+  AIGoalSelectors:
+  - randomstroll
   DamageModifiers:
   - FALL 0
   Options:

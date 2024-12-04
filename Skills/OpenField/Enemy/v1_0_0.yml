@@ -15,6 +15,7 @@ OpenField_Enemy_test_Tatsukitsune7_Skills3:
       - delay 80
       - damage{a=10;pi=true;ii=true}
     ]} @PlayersNearTargetLocations{r=5}
+    
 OpenField_Enemy_サソリ_Tatsukitsune7_Skills:
   Skills:
   - missile{ot=[ - effect:particles{p=Crit;a=1} ];oh=[ - damage{a=20;pi=true;ii=true} ];bulletType=MOB;mob=OpenField_Util_砂_50_Tatsukitsune7;bmd=true;
