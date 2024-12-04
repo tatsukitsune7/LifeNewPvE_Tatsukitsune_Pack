@@ -16,3 +16,26 @@ OpenField_Enemy_test_Tatsukitsune7:
   Skills: 
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills} @self ~onTimer:200
     - skill{s=OpenField_Enemy_test_Tatsukitsune7_Skills2} @target ~onTimer:80
+
+OpenField_Enemy_サソリ_Tatsukitsune7:
+  Template: OpenField_Enemy_Base_MCLove32
+  Display: サソリ
+  Health: 18
+  Damage: 4
+  Faction: Enemy
+  Type: Husk
+  AITargetSelectors:
+  - clear
+  - attacker
+  AIGoalSelectors:
+  - randomstroll
+  DamageModifiers:
+  - FALL 0
+  Options:
+    FollowRange: 30
+    Scale: 1.5
+    MovementSpeed:0.8
+    KnockbackResistance:0.75
+    AttackSpeed: 2
+  Skills:
+    - skill{s=OpenField_Enemy_サソリ_Tatsukitsune7_Skills} @target ~onTimer:80
