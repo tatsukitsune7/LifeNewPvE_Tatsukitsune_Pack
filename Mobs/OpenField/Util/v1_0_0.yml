@@ -8,7 +8,7 @@ OpenField_Util_鎖_50_Tatsukitsune7:
   Skills:
 
 OpenField_Util_砂_50_Tatsukitsune7:
-    Type: block_display
+  Type: block_display
   DisplayOptions:
     Block: Sand
     BlockLight: 15
