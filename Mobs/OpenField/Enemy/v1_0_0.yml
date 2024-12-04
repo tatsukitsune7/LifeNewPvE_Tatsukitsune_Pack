@@ -24,6 +24,13 @@ OpenField_Enemy_サソリ_Tatsukitsune7:
   Damage: 6
   Faction: Enemy
   Type: silverfish
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - players
   DamageModifiers:
   - FALL 0
   Options:
