@@ -10,10 +10,9 @@ OpenField_Enemy_test_Tatsukitsune7_Skills2:
     byo=0;bfo=0;v=10;i=1;vr=1.25;hr=1.25;mr=24;md=40;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.2} 
 OpenField_Enemy_test_Tatsukitsune7_Skills3:
   Skills:
-  - blockMask{b=REDSTONE;r=5;d=80} @target
+  - blockMask{b=REDSTONE_BLOCK;r=5;d=80} @target
   - sound{s=block.bell.use;v=1;p=0.8} @self
   - skill{s=[
       - delay 80
       - damage{a=10;pi=true;ii=true}
     ]} @PlayersNearTargetLocations{r=5}
-  
