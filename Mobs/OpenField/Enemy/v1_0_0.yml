@@ -19,16 +19,11 @@ OpenField_Enemy_test_Tatsukitsune7:
 
 OpenField_Enemy_サソリ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
-  Display: サソリ
+  Display: t
   Health: 18
   Damage: 4
   Faction: Enemy
   Type: Husk
-  AITargetSelectors:
-  - clear
-  - attacker
-  AIGoalSelectors:
-  - randomstroll
   DamageModifiers:
   - FALL 0
   Options:
