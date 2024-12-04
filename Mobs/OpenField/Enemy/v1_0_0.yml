@@ -28,8 +28,8 @@ OpenField_Enemy_サソリ_Tatsukitsune7:
   - FALL 0
   Options:
    FollowRange: 20
-   Scale: 1
-   MovementSpeed: 0.2
+   Scale: 1.25
+   MovementSpeed: 0.8
    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills:
