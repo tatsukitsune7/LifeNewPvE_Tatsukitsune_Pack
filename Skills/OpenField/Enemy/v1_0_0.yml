@@ -44,12 +44,16 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH:
   - damage{a-8}
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
+  Conditions:
+  - playerwithin{d=12} false
   Skills:
   - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
+  - setTarget @TTP{limit=1;sort=RANDOM}
   - missile{ot=[ - effect:particles{p=Wax_Off;a=1} ];oh=[ - damage{a=10;pi=true;ii=true} ];bulletType=MOB;mob=OpenField_Util_アメジストブロック_50_Tatsukitsune7;bmd=true;
     byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.5;repeat=2;repeati=10}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
+  - setTarget @TTP{limit=1;sort=RANDOM}
   - effect:bloodyScreen{d=40} @PIR{r=15}
   - potion{t=SLOWNESS;d=40;l=10} @self
   - delay 40
@@ -57,6 +61,3 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   - potion{t=SPEED;d=15;l=5} @self
   - sound{s=block.ender_chest.open;v=1;p=0.6} @self
   - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Reverse_Portal} ];roll=<random.-45to45>;oH=[ - damage{a=10;pi=true;ii=true} ];repeat=1;repeati=6} @self
-
-
-
