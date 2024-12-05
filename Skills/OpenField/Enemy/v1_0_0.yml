@@ -28,12 +28,12 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   Skills:
-  - doppleganger{nameplate=false} @PIR{r=50}
+  - doppleganger{nameplate=false;upn=false} @PIR{r=50}
   - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4,OpenField_Enemy_無銘_Tatsukitsune7_Skills5}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
-  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=-10;v=10}
-  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=10;v=10}
+  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=-18;v=10}
+  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=18;v=10}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT:
   Skills:
   - effect:particles{p=witch;a=30;hs=0.1;vs=2}
@@ -47,7 +47,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Skills:
   - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
   - missile{ot=[ - effect:particles{p=Wax_Off;a=1} ];oh=[ - damage{a=10;pi=true;ii=true} ];bulletType=MOB;mob=OpenField_Util_アメジストブロック_50_Tatsukitsune7;bmd=true;
-    byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.5}
+    byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.5;repeat=2;repeati=10}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - effect:bloodyScreen{d=40} @PIR{r=15}
