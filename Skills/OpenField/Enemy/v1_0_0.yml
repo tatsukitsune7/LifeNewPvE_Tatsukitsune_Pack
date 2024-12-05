@@ -35,4 +35,4 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills:
 OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2:
   Skills:
   - settarget @NearestPlayer{r=10}
-  - disguise{d="caster.targetedplayer"} @self
+  - disguise{d="<caster.targetedplayer>"} @self
