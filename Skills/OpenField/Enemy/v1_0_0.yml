@@ -35,8 +35,3 @@ OpenField_Enemy_灼熱_Tatsukitsune7_Skills:
 OpenField_Enemy_灼熱_Tatsukitsune7_Skills2:
   Skills:
   - blockMask{b=REDSTONE_BLOCK;r=5;d=80} @target
-  - sound{s=block.bell.use;v=1;p=0.8} @self
-  - skill{s=[
-      - delay 80
-      - damage{a=10;pi=true;ii=true}
-    ]} @PlayersNearTargetLocations{r=5}
