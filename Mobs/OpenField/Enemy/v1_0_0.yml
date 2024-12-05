@@ -59,5 +59,3 @@ OpenField_Enemy_灼熱_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills} @target ~onTimer:100
-  - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills2} @target ~onSpawn 
-  - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills3} @target ~onDamaged 
