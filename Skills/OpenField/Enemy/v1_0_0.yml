@@ -44,7 +44,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - effect:bloodyScreen{d=25} @PIR{r=15}
-  - potion{t=SLOWNESS;d=30;l=10}
+  - potion{t=SLOWNESS;d=30;l=10} @self
   - delay 30
-  - arrowvolley{a=20;s=25;v=10;f=50;rd=200} @Target
+  - arrowvolley{a=20;s=100;v=10;f=50;rd=200} @Target
 
