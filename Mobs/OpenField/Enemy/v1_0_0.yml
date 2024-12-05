@@ -60,7 +60,6 @@ OpenField_Enemy_灼熱_Tatsukitsune7:
   Skills:
   - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills} @target ~onTimer:2000
   - skill{s=[
-      - effect:blockmask{m=REDSTONE_BLOCK;r=5;d=80} @PIR{r=50} ~onTimer:80
-      - delay 80
+      - effect:blockmask{m=REDSTONE_BLOCK;r=5;d=80} @PIR{r=50}
       - damage{a=10;pi=true;ii=true}
     ]} @PlayersNearTargetLocations{r=5} ~onTimer:160
