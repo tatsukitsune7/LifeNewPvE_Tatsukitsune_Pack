@@ -54,7 +54,6 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7:
   - meleeattack
   - randomstroll
   AITargetSelectors:
-  - clear
   - players
   DamageModifiers:
   - FALL 0
