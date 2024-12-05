@@ -25,3 +25,21 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
   Skills:
   - damage{a=20;pi=true;ii=true}
   - potion{t=POISON;d=20;l=1}
+
+OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills:
+  Skills:
+  - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
+  - delay 10
+  - projectile{
+    oh=[
+     - damage={a=10;pi=true;ii=true}
+    ];
+    bulletType=MOB;mm=OpenField_Util_青氷_100_Tatsukitsune7;
+    bmd=true;byo=0;bfo=0;v=1;i=1;vr=1.25;r=1.25;hp=true;hnp=false;mr=28;md=60}
+    
+
+OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2:
+  Cooldown: 20 
+  - sound{s=block.beacon.deactivate;v=1;p=1}
+  - Lunge{velocity=2;velocityY=1.25} @Self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Wax_Off} ];roll=<random.-45to45>;oH=[ - damage{a=20;pi=true;ii=true} ];repeat=2;repeati=10} @selfaaa

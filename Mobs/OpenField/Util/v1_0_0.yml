@@ -15,3 +15,12 @@ OpenField_Util_砂_50_Tatsukitsune7:
     SkyLight: 15
     Scale: 0.5,0.5,0.5
   Skills:
+
+OpenField_Util_青氷_100_Tatsukitsune7:
+  Type: block_display
+  DisplayOptions:
+    Block: Blueice
+    BlockLight: 15
+    SkyLight: 15
+    Scale: 1,1,1
+  Skills:
