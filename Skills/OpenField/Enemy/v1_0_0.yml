@@ -36,6 +36,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Flame} ];roll=<random.-45to45>;oH=[ - damage{a=20;pi=true;ii=true} ];repeat=1;repeati=6} @self 
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
+  Cooldown: 10
   Skills:
   - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
   - delay 2
