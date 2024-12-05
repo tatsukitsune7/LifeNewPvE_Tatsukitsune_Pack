@@ -49,12 +49,15 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7:
   Damage: 6
   Faction: Enemy
   Type: Husk
-  Disguise: BLAZE
+  Disguise: player Dinnerbone setSkin target
   AIGoalSelectors:
   - clear
-  - randomFly
+  - randomstroll
   AITargetSelectors:
+  - clear
   - players
+  - golems
+
   DamageModifiers:
   - FALL 0
   Options:
