@@ -49,7 +49,6 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7:
   Damage: 6
   Faction: Enemy
   Type: Husk
-  Disguise: player Dinnerbone setSkin target
   AIGoalSelectors:
   - clear
   - randomstroll
@@ -57,7 +56,6 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7:
   - clear
   - players
   - golems
-
   DamageModifiers:
   - FALL 0
   Options:
@@ -68,3 +66,4 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills} @target ~onTimer:80
+  - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2} @self ~onTimer:20
