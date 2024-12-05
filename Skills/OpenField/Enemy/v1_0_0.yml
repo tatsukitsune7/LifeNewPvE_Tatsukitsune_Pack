@@ -32,7 +32,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4,OpenField_Enemy_無銘_Tatsukitsune7_Skills5}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
-  - particletornado{p=flame;cp=largeexplode;mr=1;h=3;i=4;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2;oH=[ - damage{a=20;pi=true;ii=true} ]} @self
+  - guardianbeam{d=100;i=1;syo=1;fromOrigin=false;oE=[ - potion{t=POISON;d=20;l=1} ]} @Target
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Skills:
   - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
