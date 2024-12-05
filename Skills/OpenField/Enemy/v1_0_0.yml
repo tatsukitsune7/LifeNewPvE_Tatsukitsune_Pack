@@ -26,13 +26,17 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
   - damage{a=20;pi=true;ii=true}
   - potion{t=POISON;d=20;l=1}
 
-OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills:
+OpenField_Enemy_灼熱_Tatsukitsune7_Skills:
   Skills:
   - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
   - delay 2
   - missile{ot=[ - effect:particles{p=Flame;a=1} ];oh=[ - damage{a=10;pi=true;ii=true} ];bulletType=MOB;mob=OpenField_Util_青氷_100_Tatsukitsune7;bmd=true;
     byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.5}
-OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2:
+OpenField_Enemy_灼熱_Tatsukitsune7_Skills2:
   Skills:
-  - settarget @NearestPlayer{r=10}
-  - disguise{d="<caster.targetedplayer>"} @target
+  - blockMask{b=REDSTONE_BLOCK;r=5;d=80} @target
+  - sound{s=block.bell.use;v=1;p=0.8} @self
+  - skill{s=[
+      - delay 80
+      - damage{a=10;pi=true;ii=true}
+    ]} @PlayersNearTargetLocations{r=5}
