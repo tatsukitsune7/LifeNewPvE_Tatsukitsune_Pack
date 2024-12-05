@@ -33,7 +33,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
   - Lunge{velocity=3;velocityY=0.5} @Self
-  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Flame} ];roll=<random.-45to45>;oH=[ - damage{a=20;pi=true;ii=true} ];repeat=1;repeati=6} @self 
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Flame} ];roll=<random.-45to45>;oH=[ - damage{a=10;pi=true;ii=true} ];repeat=1;repeati=6} @self 
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Skills:
@@ -44,10 +44,10 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - effect:bloodyScreen{d=40} @PIR{r=15}
-  - potion{t=SLOWNESS;d=38;l=10} @self
-  - delay 38
-  - propel{v=2;delay=1}
-  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Flame} ];roll=<random.-45to45>;oH=[ - damage{a=20;pi=true;ii=true} ];repeat=1;repeati=6} @self
+  - potion{t=SLOWNESS;d=40;l=10} @self
+  - delay 40
+  - Lunge{velocity=4;velocityY=0} @Self
+  - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Flame} ];roll=<random.-45to45>;oH=[ - damage{a=10;pi=true;ii=true} ];repeat=1;repeati=6} @self
 
 
 
