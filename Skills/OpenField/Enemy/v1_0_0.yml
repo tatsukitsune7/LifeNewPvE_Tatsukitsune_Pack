@@ -29,7 +29,7 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   Skills:
   - doppleganger @PIR{r=50}
-  - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4}
+  - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4,OpenField_Enemy_無銘_Tatsukitsune7_Skills5}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
   - Lunge{velocity=3;velocityY=0.5} @Self
@@ -46,5 +46,24 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   - effect:bloodyScreen{d=40} @PIR{r=15}
   - potion{t=SLOWNESS;d=40;l=10} @self
   - delay 40
-  - blockwave{duration=100;material=stone;radius=5;radiusY=5;velocity=10;shape=sphere;oh=[ - damage{a=10;pi=true;ii=true} ]} @selflocation
+  - lightning @EntitiesInRadius{r=10}
+
+
+OpenField_Enemy_無銘_Tatsukitsune7_Skills5:
+  Skills:
+  - raytrace{
+      entitySkill=[
+        - damage{amount=20}
+      ];
+      headshotSkill=[
+        - effect:particles{particle=flame}
+      ];
+      locationSkill=[
+        - particles{p=flame;a=20;s=0.2;hS=0.1;vS=0.1}
+      ];
+      raytraceConditions=[
+        - samefaction false
+      ]} @targetlocation ~onUse
+
+
 
