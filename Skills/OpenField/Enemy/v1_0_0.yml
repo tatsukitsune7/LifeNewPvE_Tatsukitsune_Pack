@@ -46,5 +46,5 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   - effect:bloodyScreen{d=40} @PIR{r=15}
   - potion{t=SLOWNESS;d=40;l=10} @self
   - delay 40
-  - arrowvolley{a=20;s=200;v=20;f=50;rd=200;pickup=false} @Target
+  - arrowvolley{a=20;s=200;v=17;rd=200;pickup=false;oh=[ - damage{a=10;pi=true;ii=true} ]} @Target
 
