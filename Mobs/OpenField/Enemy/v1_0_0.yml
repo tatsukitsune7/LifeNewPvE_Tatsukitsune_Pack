@@ -48,10 +48,9 @@ OpenField_Enemy_深海の古代魚_Tatsukitsune7:
   Health: 18
   Damage: 6
   Faction: Enemy
-  Type: DROWNED
+  Type: Blaze
   DamageModifiers:
   - FALL 0
-  Disguise: TROPICAL_FISH
   Options:
    FollowRange: 20
    Scale: 1
