@@ -32,19 +32,8 @@ OpenField_Enemy_灼熱_Tatsukitsune7_Skills:
   - delay 2
   - missile{ot=[ - effect:particles{p=Flame;a=1} ];oh=[ - damage{a=10;pi=true;ii=true} ];bulletType=MOB;mob=OpenField_Util_青氷_100_Tatsukitsune7;bmd=true;
     byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.5}
+
 OpenField_Enemy_灼熱_Tatsukitsune7_Skills2:
   Skills:
-  - missile{ot=[ - effect:particles{p=flame;a=1} ];oh=[ - damage{a=0;pi=true;ii=true} ];oe=[ - skill:OpenField_Enemy_灼熱_Tatsukitsune7_Skills_2_2 @origin ];bulletType=MOB;mob=OpenField_Util_鎖_50_Tatsukitsune7;bmd=true;
-  byo=0;bfo=0;v=10;i=1;vr=1.25;hr=1.25;mr=24;md=40;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.2} 
 
-OpenField_Enemy_灼熱_Tatsukitsune7_Skills2_2:
-  SKills:
-  - totem{
-    os=[
-      - effect:blockmask{m=REDSTONE_BLOCK;r=5;d=80} @origin
-    ];
-    oe=[
-      - damage{a=8;pi=true;ii=true} 
-    ];
-    md=80;vr=1;r=5;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
   
