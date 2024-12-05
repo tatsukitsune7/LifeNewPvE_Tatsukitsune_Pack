@@ -48,12 +48,13 @@ OpenField_Enemy_灼熱_Tatsukitsune7:
   Health: 18
   Damage: 6
   Faction: Enemy
-  Type: BLAZE
+  Type: Husk
   DamageModifiers:
   - FALL 0
+  Disguise: SKELETON setGlowing setSpinning setBurning
   Options:
    FollowRange: 20
-   Scale: 3
+   Scale: 1
    MovementSpeed: 0.3
    KnockbackResistance: 0.75
    AttackSpeed: 2
