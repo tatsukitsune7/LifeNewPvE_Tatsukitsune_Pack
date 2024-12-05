@@ -59,4 +59,4 @@ OpenField_Enemy_灼熱_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills} @target ~onTimer:20000
-  - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2} ~onTimer:160
+  - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2} @target ~onTimer:160
