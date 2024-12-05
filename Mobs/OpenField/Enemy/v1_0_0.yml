@@ -51,7 +51,7 @@ OpenField_Enemy_灼熱_Tatsukitsune7:
   Type: Husk
   DamageModifiers:
   - FALL 0
-  Disguise: SKELETON setGlowing setSpinning setBurning
+  Disguise: player Dinnerbone setSkin <target>
   Options:
    FollowRange: 20
    Scale: 1

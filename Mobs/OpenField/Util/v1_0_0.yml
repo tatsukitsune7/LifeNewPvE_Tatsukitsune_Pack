@@ -19,7 +19,7 @@ OpenField_Util_砂_50_Tatsukitsune7:
 OpenField_Util_青氷_100_Tatsukitsune7:
   Type: block_display
   DisplayOptions:
-    Block: Blueice
+    Block: Blue_ice
     BlockLight: 15
     SkyLight: 15
     Scale: 1,1,1
