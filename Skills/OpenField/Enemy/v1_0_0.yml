@@ -32,7 +32,17 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4,OpenField_Enemy_無銘_Tatsukitsune7_Skills5}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
-  - guardianbeam{d=100;i=1;syo=1;fromOrigin=false;oE=[ - potion{t=POISON;d=20;l=1} ]} @Target
+  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=-20;v=10}
+  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=20;v=10}
+OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT:
+  Skills:
+  - effect:particles{p=witch;a=30;hs=0.1;vs=2}
+  - effect:particles{p=Wax_Off;a=30;hs=0.1;vs=2}
+
+OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH:
+  Skills:
+  - damage{a-8}
+
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Skills:
   - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
