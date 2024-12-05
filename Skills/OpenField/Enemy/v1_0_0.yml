@@ -28,7 +28,7 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   Skills:
-  - doppleganger @PIR{r=50}
+  - doppleganger{nameplate=false} @PIR{r=50}
   - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4,OpenField_Enemy_無銘_Tatsukitsune7_Skills5}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
