@@ -59,4 +59,4 @@ OpenField_Enemy_灼熱_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills} @target ~onTimer:2000
-  - effect:blockmask{m=ice;r=2;d=20} @PIR{r=50} ~onTimer:80
+  - skill{s=OpenField_Enemy_深海の古代魚_Tatsukitsune7_Skills2} @target ~onTimer:160
