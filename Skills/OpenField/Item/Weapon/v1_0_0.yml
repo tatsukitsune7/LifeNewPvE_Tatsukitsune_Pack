@@ -19,13 +19,11 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
   - aura{n=サブウェポン;i=20;rd=true;t=60} @self 
   - setMaterialCooldown{m=netherite_hoe;d=200} @self 
   - projectile{
-    oh=[
-       - damage{a=8;pi=true;ii=true} 
-    ];
     oe=[
        - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
-    v=16;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60} @TL
+    v=16;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60;
+    b=arrow;arrowtype=TRIDENT} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
-  - fakelightning 
+  - lightning{d=80;ii=true;pi=true;e=YELLOW} @ENO{r=3;limit=5;sort=random;c=[ - isLiving true - isMythicMob true ]}
