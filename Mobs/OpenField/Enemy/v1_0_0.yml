@@ -77,3 +77,11 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @target ~onTimer 20
+
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
+  Skills:
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2} @forward{a=10}
+
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2:
+  Skills:
+  - effect:particles{p=Crit} @Line{r=0.5}
