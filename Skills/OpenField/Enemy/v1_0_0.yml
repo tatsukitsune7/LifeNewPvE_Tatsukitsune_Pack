@@ -61,3 +61,11 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   - potion{t=SPEED;d=15;l=5} @self
   - sound{s=block.ender_chest.open;v=1;p=0.6} @self
   - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Reverse_Portal} ];roll=<random.-45to45>;oH=[ - damage{a=10;pi=true;ii=true} ];repeat=1;repeati=6} @self
+
+ExampleSkill1:
+  Skills:
+  - skill{s=ExampleSkill2} @Forward{f=10}
+
+ExampleSkill2:
+  Skills:
+  - effect:particles @Line{r=0.5}
