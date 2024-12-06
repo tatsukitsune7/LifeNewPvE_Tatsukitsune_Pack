@@ -74,4 +74,4 @@ OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
   - delay 30
   - Lunge{velocity=2;velocityY=1.25} @target
   - delay 5
-  - damage{a=15}
+  - damage{a=15} @RIP{r=4}
