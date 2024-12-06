@@ -76,4 +76,4 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills:
-  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @self ~onSpawn
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @self ~onTimer 100
