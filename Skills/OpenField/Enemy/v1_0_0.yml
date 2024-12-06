@@ -64,12 +64,12 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   Skills:
-  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2} @forward{f=10}
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2} @targetedLocation
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2:
   Skills:
   - effect:particles{p=Wax_off;a=30;hs=0.1;vs=2} @Line{r=0.5}
   - delay 20
-  - totem{ch=1;i=1;md=10;oh=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_3} @line{r=0.5}
+  - totem{ch=1;i=1;md=10;oe=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_3} @line{r=0.5}
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_3:
   Skills:
-  - damage{a=10} @ENO{r=2}
+  - damage{a=10}
