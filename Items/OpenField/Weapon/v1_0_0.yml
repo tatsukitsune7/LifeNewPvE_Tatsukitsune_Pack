@@ -7,4 +7,4 @@ OpenField_Weapon_雷_Tatsukitsune7:
     Unbreakable: true
   Group: 'Sub-Weapon'
   Skills:
-  - skill:OpenField_Weapon_雷_Tatsukitsune7_SKills @self ~oneUse
+  - skill:OpenField_Weapon_雷_Tatsukitsune7_SKills @self ~onUse
