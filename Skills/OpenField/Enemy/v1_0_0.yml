@@ -68,4 +68,4 @@ ExampleSkill1:
 
 ExampleSkill2:
   Skills:
-  - effect:particles @Line{r=0.5}
+  - effect:particles{p=Reverse_Portal} @Line{r=0.5}
