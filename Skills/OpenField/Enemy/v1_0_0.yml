@@ -61,3 +61,15 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   - potion{t=SPEED;d=15;l=5} @self
   - sound{s=block.ender_chest.open;v=1;p=0.6} @self
   - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Reverse_Portal} ];roll=<random.-45to45>;oH=[ - damage{a=10;pi=true;ii=true} ];repeat=1;repeati=6} @self
+
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
+  Skills:
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2} @forward{f=10}
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2:
+  Skills:
+  - effect:particles{p=Wax_off;a=30;hs=0.1;vs=2} @Line{r=0.5}
+  - delay 20
+  - totem{ch=1;i=1;md=10;oh=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_3} @line{r=0.5}
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_3:
+  Skills:
+  - damage{a=10} @ENO{r=2}
