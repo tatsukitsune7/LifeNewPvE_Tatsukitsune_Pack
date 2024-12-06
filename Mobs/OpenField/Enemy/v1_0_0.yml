@@ -76,10 +76,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills:
-  - skill{s=ExampleSkill2} @Forward{f=10}
-ExampleSkill2:
-  Skills:
-  - effect:particles{p=Reverse_Portal} @Line{r=0.5}
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @target ~onTimer 100
 
 
 
