@@ -14,8 +14,15 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
   Skills:
   - modifyMana{a=-100} @self 
   - aura{n=サブウェポン;i=20;rd=true;t=60} @self 
-  - setMaterialCooldown{m=wooden_hoe;d=200} @self 
-  - projectile{oh=[ - damage{a=8;pi=true;ii=true} ];oe=[ - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin];bmd=true;byo=0;bfo=0;v=16;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60;}
+  - setMaterialCooldown{m=netherite_hoe;d=200} @self 
+  - projectile{
+    oh=[
+       - damage{a=8;pi=true;ii=true} 
+    ];
+    oe=[
+       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
+    ];
+    bmd=true;byo=0;bfo=0;v=16;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60;}
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
   - fakelightning @self
