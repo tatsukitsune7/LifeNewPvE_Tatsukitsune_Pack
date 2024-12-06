@@ -22,7 +22,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
     oe=[
        - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
-    bmd=true;byo=0;bfo=0;v=16;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60;}
+    v=16;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
-  - fakelightning @self
+  - fakelightning 
