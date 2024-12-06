@@ -1,7 +1,10 @@
 OpenField_Weapon_雷_Tatsukitsune7_SKills:
   Cooldown: 10
   Conditions:
-  - wearing{m=OpenField_Weapon_雷_Tatsukitsune7;s=HAND}
+  - wearing{m=OpenField_Weapon_雷_Tatsukitsune7;s=HAND;
+    onfail=[
+      - message{m="&c武器があってません。"} @self 
+    ]}
   - hasMana{a=>100;
     onFail=[
       - message{m="&cマナが足りません。"} @self 
