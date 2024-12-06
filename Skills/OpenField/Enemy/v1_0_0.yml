@@ -64,7 +64,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   Skills:
-  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2} @forward{f=10}
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2} @targetLocation
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2:
   Skills:
   - effect:particles{p=Wax_off} @Line{r=0.5}
