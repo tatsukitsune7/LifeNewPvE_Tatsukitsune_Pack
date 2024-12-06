@@ -70,6 +70,6 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_2:
   Skills:
-  - e:blockMask{b=REDSTONE_BLOCK;r=5;d=60}
+  - e:blockMask{b=REDSTONE_BLOCK;r=5;d=60} @origin
   - delay 60
   - damage{a=100;pi=true;ii=true} @PlayersNearOrigin{r=5}
