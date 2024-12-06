@@ -78,5 +78,24 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
   Skills:
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @target ~onTimer:65
 
+OpenField_Enemy_ヤギ_Tatsukitsune7:
+  Template: OpenField_Enemy_Base_MCLove32
+  Display: "&aヤギ"
+  Health: 18
+  Damage: 6
+  Faction: Enemy
+  Type: Husk
+  Disguise: goat
+  DamageModifiers:
+  - FALL 0
+  Options:
+   FollowRange: 20
+   Scale: 1
+   MovementSpeed: 0.6
+   KnockbackResistance: 0.75
+   AttackSpeed: 2
+  Skills:
+  - skill{s=OpenField_Enemy_ヤギ_Tatsukitsune7_SKills} @self ~onTimer:75
+
 
 

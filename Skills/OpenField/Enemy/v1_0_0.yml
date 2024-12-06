@@ -66,3 +66,10 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   Skills:
   - teleport{spreadh=5;spreadv=0} @target
+
+
+OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
+  Skills:
+  - Lunge{velocity=2;velocityY=1.25} @target
+  - delay 5
+  - damage{a=15}
