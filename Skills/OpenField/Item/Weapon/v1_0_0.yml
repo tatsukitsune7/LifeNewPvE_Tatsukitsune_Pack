@@ -1,0 +1,21 @@
+OpenField_Weapon_雷_Tatsukitsune7_SKills:
+  Cooldown: 10
+  Conditions:
+  - wearing{m=OpenField_Weapon_雷_Tatsukitsune7;s=HAND}
+  - hasMana{a=>100;
+    onFail=[
+      - message{m="&cマナが足りません。"} @self 
+    ]} 
+  - hasAura{n=サブウェポン;
+    onfail=[
+      - message{m="&cサブウェポン共通CT中です。"} @self 
+    ]} false  
+  - materialIsOnCooldown{m=netherite_hoe} false 
+  Skills:
+  - modifyMana{a=-100} @self 
+  - aura{n=サブウェポン;i=20;rd=true;t=60} @self 
+  - setMaterialCooldown{m=wooden_hoe;d=200} @self 
+  - projectile{oh=[ - damage{a=8;pi=true;ii=true} ];oe=[ - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin]}
+OpenField_Weapon_雷_Tatsukitsune7_Process:
+  Skills:
+  - fakelightning @self

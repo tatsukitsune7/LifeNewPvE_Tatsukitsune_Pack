@@ -66,3 +66,4 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   Skills:
   - teleport{spreadh=5;spreadv=0} @target
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1
