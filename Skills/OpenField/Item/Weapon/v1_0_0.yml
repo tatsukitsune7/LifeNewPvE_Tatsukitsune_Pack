@@ -68,7 +68,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - damage{a=40;pi=true;ii=true}
     ];
     ot=[
-      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=3;pts=16} @origin 0.5
+      - e:pr{p=Small_Gust;a=1;audience=caster;s=0.5;r=3;pts=8} @origin 0.5
     ];
     os=[
       - sound{s=item.trident.thunder;p=1;v=0.5;audience=caster} @self
