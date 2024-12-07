@@ -55,7 +55,9 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - damage{a=40 * <skill.var.radius>;pi=true;ii=true}
     ];
     ot=[
-      - particletornado{p=Small_guts;cp=largeexplode;mr=1;h=3;i=4;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2}
+      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=0.2;pts=16;y=1} @origin
+      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=0.5;pts=16;y=2} @origin
+      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=1;pts=16;y=3} @origin 0.5
     ];
     os=[
       - sound{s=item.trident.thunder;p=1;v=2;audience=caster} @self
