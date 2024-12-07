@@ -63,7 +63,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
     ];
     repeat=4;repeati=1;e=YELLOW} @self
 
-  - delay 20
+  - delay 30
   - slash{
     y=1.8;w=4;h=2;mpd=true;a=180;
     oP=[
