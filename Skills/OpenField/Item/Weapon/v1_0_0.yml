@@ -72,9 +72,9 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - setVar{var=skill.x;val="<life.l.x>";t=FLOAT} @forward{f=32}
       - setVar{var=skill.y;val="<life.l.y>";t=FLOAT} @forward{f=32}
       - setVar{var=skill.z;val="<life.l.z>";t=FLOAT} @forward{f=32}
-      - e:pr{p=gust_small;r=2;pts=16;audience=caster;a=1;s=0.1;d=true;dr=true;origin=@origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}} @origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}
+      - e:pr{p=small_gust;r=2;pts=16;audience=caster;a=1;s=0.1;d=true;dr=true;origin=@origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}} @origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}
     ];
-    i=1;vr=3.5;hr=3.5;hp=false;hnp=true;mr=32;md=300;v=8;se=false;ti=20;
+    i=1;vr=3.5;hr=3.5;hp=false;hnp=true;mr=32;md=300;v=8;se=false;
     conditions=[
       - isLiving true 
       - isMythicMob true
