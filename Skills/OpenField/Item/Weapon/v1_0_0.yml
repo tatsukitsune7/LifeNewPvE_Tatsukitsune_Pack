@@ -47,7 +47,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
   - aura{n=メインウェポン;i=20;rd=true;t=20} @self 
   - setMaterialCooldown{m=wooden_sword;d=30} @self 
   - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process @origin
-  - sound{s=entity.breeze.wind_burst;v=1;p=1;delay=20;repeat=4;repeati=6} @self
+  - sound{s=entity.breeze.wind_burst;v=1;p=1;repeat=4;repeati=6} @self
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   Skills:
