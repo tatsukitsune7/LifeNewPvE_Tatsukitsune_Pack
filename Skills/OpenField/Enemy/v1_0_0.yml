@@ -93,3 +93,4 @@ OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
   - Lunge{velocity=1.5;velocityY=0.75} @target
   - delay 5
   - damage{a=15} @PIR{r=2}
+  

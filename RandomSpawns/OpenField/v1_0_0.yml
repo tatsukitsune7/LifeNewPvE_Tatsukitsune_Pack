@@ -1,0 +1,25 @@
+OpenField_Enemy_ヤギ_Tatsukitsune7_Spawn:
+  Type: OpenField_Enemy_ヤギ_Tatsukitsune7
+  Worlds: open_field
+  Action: ADD 
+  PositionType: LAND
+  Chance: 1
+  Priority: 12
+  Conditions:
+  - mobsinworld{a=<1000} true 
+  - blocktype{type=water,air} false 
+  - blocktype{
+    type=
+    grass_block,
+    moss_block,
+    snow_block,
+    snow,
+    podzol
+    } true  
+  - height{h=60to150} true 
+  - region{r=spawn_near_mountain} true 
+  - (
+    mythicinradius{a=<1;r=20} ||
+    mythicinradius{a=<3;r=32} ||
+    mythicinradius{a=<5;r=48} 
+    ) true  
