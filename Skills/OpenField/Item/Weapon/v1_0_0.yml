@@ -64,7 +64,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
     repeat=4;repeati=1} @self
   - delay 30
   - projectile{
-    b=MOB;mm=OpenField_util_ストーン_5_MCLove32;bmd=true;bfo=0;byo=0;
+    b=MOB;mm=OpenField_util_ストーン_5_Tatsukitsune7;bmd=true;bfo=0;byo=0;
     v=5;i=1;hp=false;hnp=false;mr=10;
     se=false;hs=true;huglava=true;
     os=[
