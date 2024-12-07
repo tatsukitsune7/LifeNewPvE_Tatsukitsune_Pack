@@ -1,0 +1,27 @@
+OpenField_util_ストーン_5_MCLove32:
+  Skills:
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=0;r=3;y=2}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=12;r=3;y=2}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=24;r=3;y=2}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=0;r=4;y=4}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=12;r=4;y=4}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=24;r=4;y=4}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=0;r=5;y=6}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=12;r=5;y=6}
+  - skill:OpenField_util_ストーン_5_MCLove32_Orb{sp=24;r=5;y=6}
+
+OpenField_util_ストーン_5_MCLove32_Orb:
+  Skills:
+  - o{
+    n=<random.0to9999999>;t=200;r=<skill.r>;hr=3;vr=2;p=36;
+    sp=<skill.sp>;i=1;hp=false;hnp=true;oy=<skill.y>;fo=true;
+    conditions=[
+      - isLiving true 
+      - isMythicMob true
+    ];
+    oh=[
+      - damage{a=5;pi=true;ii=true;e=GREEN}
+    ];
+    ot=[
+      - e:p{p=cloud;a=1;size=2} @origin
+    ]} 
