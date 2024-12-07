@@ -30,7 +30,7 @@ OpenField_Weapon_雷_Tatsukitsune7_Process:
 
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
-  Cooldown: 3
+  Cooldown: 6
   Conditions:
   - wearing{m=OpenField_Weapon_ウィンドブレード_Tatsukitsune7;s=HAND}
   - hasMana{a=>15;
@@ -53,9 +53,21 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   - slash{
     y=1.8;w=4;h=2;mpd=true;a=180;
     oP=[
-       - effect:particles{p=poof} 
+       - effect:particles{p=cloud} 
     ];roll=<random.-65to245>;
     oH=[
       - damage{a=20;pi=true;ii=true} 
-      - sound{s=item.totem.use;v=0.5;p=2}
-    ];repeat=4;repeati=6} @self
+      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2}
+    ];repeat=4;repeati=6:e=LIME} @self
+  - delay 40
+  - slash{
+    y=1.8;w=4;h=2;mpd=true;a=180;
+    oP=[
+      - effect:particles{p=poof}
+    ];
+    oH=[
+      - damage{a=40;pi=true;ii=true}
+      - sound{s=item.trident.thunder;v=1;p=1}
+    ]
+  }
+  

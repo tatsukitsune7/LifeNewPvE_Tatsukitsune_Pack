@@ -11,7 +11,7 @@ OpenField_Weapon_雷_Tatsukitsune7:
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7:
   Id: wooden_sword
-  Display: "&fウィンドブレード"
+  Display: "&aウィンドブレード"
   Model: 1000
   Options:
     ItemVersion: 1
