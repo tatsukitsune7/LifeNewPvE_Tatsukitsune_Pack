@@ -58,5 +58,5 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
     oH=[
       - damage{a=20;pi=true;ii=true} 
       - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2}
-    ];repeat=4;repeati=6;e=YELLOW} @self
+    ];repeat=4;repeati=1;e=YELLOW} @self
 
