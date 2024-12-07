@@ -57,5 +57,9 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
        - effect:particles{p=Small_Gust} 
     ];roll=<random.-65to245>;
     oH=[
-      - damage{a=20;pi=true;ii=true} 
+      - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_oH
     ];repeat=4;repeati=6} @self
+    
+OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_oH:
+  - damage{a=20;pi=true;ii=true} 
+  - sound{s=entity.breeze.wind_burst;v=1;p=1} @self
