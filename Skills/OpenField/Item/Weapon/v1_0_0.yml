@@ -57,6 +57,8 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
        - effect:particles{p=Small_Gust} 
     ];roll=<random.-65to245>;
     oH=[
-      - sound{s=entity.breeze.wind_burst} @self
       - damage{a=20;pi=true;ii=true} 
-    ];repeat=4;repeati=6} @self
+    ];
+    oe=[
+      - sound{s=entity.breeze.wind_burst}
+    ]repeat=4;repeati=6} @self
