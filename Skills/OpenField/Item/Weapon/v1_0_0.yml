@@ -67,15 +67,16 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
     oh=[
       - damage{a=40;pi=true;ii=true}
     ];
-    ot=[
-      - e:pr{p=Sweep_Attack;a=1;audience=caster;s=0.5;r=2;pts=16} @origin 0.5
-    ];
     os=[
       - sound{s=item.trident.thunder;p=1;v=0.5;audience=caster} @self
+      - setVar{var=skill.x;val="<life.l.x>";t=FLOAT} @forward{f=32}
+      - setVar{var=skill.y;val="<life.l.y>";t=FLOAT} @forward{f=32}
+      - setVar{var=skill.z;val="<life.l.z>";t=FLOAT} @forward{f=32}
+      - e:pr{p=gust_small;r=2;pts=16;audience=caster;a=1;s=0.1;d=true;dr=true;origin=@origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>};fo=true} @origin{x=<skill.var.x>;y=<skill.var.y>;z=<skill.var.z>}
     ];
     i=1;vr=3.5;hr=3.5;hp=false;hnp=true;mr=32;md=300;v=8;se=false;ti=20;
     conditions=[
       - isLiving true 
       - isMythicMob true
-    ]} @forward{f=10}
+    ]} @forward{f=32}
     
