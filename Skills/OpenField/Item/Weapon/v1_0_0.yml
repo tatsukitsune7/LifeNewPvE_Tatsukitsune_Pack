@@ -53,8 +53,9 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   - slash{
     y=1.8;w=4;h=2;mpd=true;a=180;
     oP=[
-       - effect:particles{p=Soul} 
+       - effect:particles{p=poof} 
     ];roll=<random.-65to245>;
     oH=[
       - damage{a=20;pi=true;ii=true} 
+      - sound{s=item.totem.use;v=0.5;p=2}
     ];repeat=4;repeati=6} @self
