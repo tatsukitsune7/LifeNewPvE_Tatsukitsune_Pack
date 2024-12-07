@@ -61,4 +61,4 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_oH:
   - damage{a=20;pi=true;ii=true} 
-  - sound{s=entity.breeze.wind_burst;v=1;p=1} @self
+  - sound{s=block.trial_spawner.ominous_activate;v=1;p=1.8} @self
