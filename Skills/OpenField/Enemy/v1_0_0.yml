@@ -76,7 +76,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
       - effect:particles{p=Wax_Off;a=1} 
     ];
     oh=[
-      - damage{a=10;pi=true;ii=true} 
+      - damage{a=0;pi=true;ii=true} 
     ];
     oe=[
       - e:blockMask{b=REDSTONE_BLOCK;r=5;d=60} @origin
