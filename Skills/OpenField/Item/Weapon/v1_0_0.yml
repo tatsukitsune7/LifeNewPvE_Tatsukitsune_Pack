@@ -68,7 +68,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end{damage=40}
     ];
     oT=[
-      - particlering{p=small_gust;pts=16;r=3;a=1;d=true;dir=0,1,0;dr=true;s=1} @origin
+      - particlering{p=small_gust;pts=16;r=3;a=1;d=true;dir=0,1,0;dr=true;s=1;vs=3} @origin
     ];
     oS=[
       - sound{s=item.trident.thunder;v=0.5;p=2}
