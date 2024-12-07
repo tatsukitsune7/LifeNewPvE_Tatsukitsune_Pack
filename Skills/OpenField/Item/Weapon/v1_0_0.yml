@@ -71,6 +71,9 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
     ];roll=<random.-180to-180>;
     oH=[
       - damage{a=20;pi=true;ii=true} 
-    ]
+    ];
+    oS=[
+      - sound{s=item.trident.thunder;v=0.5;p=2}
+    ];
     } @self
     
