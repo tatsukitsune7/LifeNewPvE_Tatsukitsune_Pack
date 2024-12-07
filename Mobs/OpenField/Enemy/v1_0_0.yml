@@ -77,6 +77,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @target ~onTimer:65
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2} @self ~onDamaged 
 
 OpenField_Enemy_ヤギ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
@@ -96,7 +97,6 @@ OpenField_Enemy_ヤギ_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_ヤギ_Tatsukitsune7_SKills} @self ~onTimer:75
-  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2} @target ~onDamaged 
 
 
 
