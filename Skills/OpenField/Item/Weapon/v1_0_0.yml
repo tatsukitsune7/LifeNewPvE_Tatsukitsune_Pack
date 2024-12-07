@@ -50,22 +50,32 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   Skills:
+  - slash{
+    y=1.8;w=4;h=2;mpd=true;a=180;
+    oP=[
+       - effect:particles{p=White_Smoke} 
+    ];roll=<random.-65to245>;
+    oH=[
+      - damage{a=20;pi=true;ii=true;e=GREEN} 
+    ];
+    oS=[
+      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2}
+    ];
+    repeat=4;repeati=1} @self
+  - delay 35
   - projectile{
     oh=[
-      - damage{a=40 * <skill.var.radius>;pi=true;ii=true}
+      - damage{a=40;pi=true;ii=true}
     ];
     ot=[
-      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=0.2;pts=16;y=1} @origin
-      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=0.5;pts=16;y=2} @origin
-      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=1;pts=16;y=3} @origin 0.5
+      - e:pr{p=Small_guts;a=1;audience=caster;s=0.5;r=3;pts=16} @origin 0.5
     ];
     os=[
-      - sound{s=item.trident.thunder;p=1;v=2;audience=caster} @self
+      - sound{s=item.trident.thunder;p=1;v=0.5;audience=caster} @self
     ];
     i=1;vr=3.5;hr=3.5;hp=false;hnp=true;mr=32;md=300;v=8;se=false;ti=20;
     conditions=[
       - isLiving true 
       - isMythicMob true
     ]} @forward{f=10}
-
     
