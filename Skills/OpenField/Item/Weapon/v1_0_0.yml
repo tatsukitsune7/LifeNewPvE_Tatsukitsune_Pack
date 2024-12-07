@@ -50,29 +50,20 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   Skills:
-  - slash{
-    y=1.8;w=4;h=2;mpd=true;a=180;
-    oP=[
-       - effect:particles{p=White_Smoke} 
-    ];roll=<random.-65to245>;
-    oH=[
-      - damage{a=20;pi=true;ii=true} 
+  - projectile{
+    oh=[
+      - damage{a=40 * <skill.var.radius>;pi=true;ii=true}
     ];
-    oS=[
-      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2}
+    ot=[
+      - particletornado{p=Small_guts;cp=largeexplode;mr=1;h=3;i=4;d=100;rs=1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=1;cyo=2}
     ];
-    repeat=4;repeati=1;e=YELLOW} @self
-  - delay 15
-  - slash{
-    y=1.8;w=4;h=2;mpd=true;a=180;
-    oP=[
-      - effect:particles{p=poof} 
-    ];roll=<random.-180to-180>;
-    oH=[
-      - damage{a=20;pi=true;ii=true} 
+    os=[
+      - sound{s=item.trident.thunder;p=1;v=2;audience=caster} @self
     ];
-    oS=[
-      - sound{s=item.trident.thunder;v=0.5;p=2}
-    ];
-    } @self
+    i=1;vr=3.5;hr=3.5;hp=false;hnp=true;mr=32;md=300;v=8;se=false;ti=20;
+    conditions=[
+      - isLiving true 
+      - isMythicMob true
+    ]} @forward{f=10}
+
     
