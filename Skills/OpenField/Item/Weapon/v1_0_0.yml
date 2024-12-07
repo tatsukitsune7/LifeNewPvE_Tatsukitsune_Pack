@@ -71,7 +71,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - particlering{p=small_gust;pts=16;r=3;a=1;d=true;dir=0,1,0;dr=true;s=1;vs=3} @origin
     ];
     oS=[
-      - sound{s=item.trident.thunder;v=0.5;p=2}
+      - sound{s=item.elytra.flying;v=0.5;p=1.4}
     ];
     i=1;vr=3.5;hr=3.5;hp=false;hnp=true;mr=32;md=300;v=8;se=false;
     conditions=[
