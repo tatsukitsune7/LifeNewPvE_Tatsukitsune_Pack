@@ -53,7 +53,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   - slash{
     y=1.8;w=4;h=2;mpd=true;a=180;
     oP=[
-       - effect:particles{p=Cloud} 
+       - effect:particles{p=White_Smoke} 
     ];roll=<random.-65to245>;
     oH=[
       - damage{a=20;pi=true;ii=true} 
