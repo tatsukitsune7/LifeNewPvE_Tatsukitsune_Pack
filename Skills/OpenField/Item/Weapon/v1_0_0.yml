@@ -62,7 +62,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2}
     ];
     repeat=4;repeati=1} @self
-  - delay 35
+  - delay 30
   - projectile{
     oh=[
       - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end{damage=40}
