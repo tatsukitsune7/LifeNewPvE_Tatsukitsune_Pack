@@ -43,7 +43,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
     ]} false  
   - materialIsOnCooldown{m=wooden_sword} false 
   Skills:
-  - modifyMana{a=-30} @self 
+  - modifyMana{a=-80} @self 
   - aura{n=メインウェポン;i=20;rd=true;t=20} @self 
   - setMaterialCooldown{m=wooden_sword;d=120} @self 
   - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process @origin
