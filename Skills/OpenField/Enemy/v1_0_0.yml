@@ -83,7 +83,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
       - delay 60
       - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=5}
     ];bulletType=MOB;mob=OpenField_Util_アメジストブロック_50_Tatsukitsune7;bmd=true;
-    byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=1.5;repeat=2;repeati=10} @randomLocationsNearTargetLocations{r=50}
+    byo=0;bfo=0;v=18;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.2;repeat=2;repeati=10} @randomLocationsNearTargetLocations{r=50}
 
 
 OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
