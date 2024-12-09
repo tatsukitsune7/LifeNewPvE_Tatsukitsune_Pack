@@ -128,10 +128,9 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
       - effect:particle{p=angry_villager}
     ];
     oe=[
-      - damage{a=30} @PlayersNearOrigin{r=2}
+      - sound{s=entity.ender_dragon.hurt}
     ];
-    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false 
-  } @line{r=1}
+    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @line{r=1}
 
 
 
