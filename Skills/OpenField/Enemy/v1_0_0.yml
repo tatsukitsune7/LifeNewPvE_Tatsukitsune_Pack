@@ -134,7 +134,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
     ot=[
       - particlesphere{particle=Bubble_Pop;amount=300;radius=5} @origin{y=10}
       - delay 10
-      - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4_2{Cooldown=3}
+      - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4_2{Cooldown=3} @targetedLocation
       - sound{s=entity.ender_dragon.flap;cd=2.5} @origin
     ];
     oe=[
@@ -149,16 +149,15 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4_2:
   Skills:
-  - projectile{
-    oT=[
-      - particle{p=Falling_Dripstone_Water;a=1}
+  - totem{
+    os=[
+      - effect:particle{p=angry_villager}
     ];
     oe=[
-      - e:blockMask{b=lapis_BLOCK;r=4;d=20} @origin
-      - delay 20
-      - particle{p=Sonic_Boom;xs=2;a=3}
-      - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=4}
-    ];i=1;mr=15;ho=-18;v=100} @target
+      - damage{a=30} @PlayersNearOrigin{r=2}
+    ];
+    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false 
+  } @line{r=1}
 
 
 
