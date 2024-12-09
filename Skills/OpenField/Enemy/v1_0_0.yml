@@ -121,6 +121,44 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
     ];
     md=120;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
 
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
+  Skills:
+  - addtag{t=大技中} @self
+  - addtag{t=ボス無敵時間} @self
+  - totem{
+    os=[
+      - sound{s=block.enchantment_table.use;p=0.6} @origin
+      - delay 10
+      - teleport @origin
+    ];
+    ot=[
+      - particlesphere{particle=Bubble_Pop;amount=300;radius=5} @origin{y=10}
+      - delay 10
+      - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4_2{Cooldown=3}
+      - sound{s=entity.ender_dragon.flap;cd=2.5} @origin
+    ];
+    oe=[
+      - removetag{t=大技中} @self
+      - removetag{t=ボス無敵時間} @self
+    ];
+    conditions=[
+      - isLiving true 
+      - isMythicMob  true
+    ];
+    md=120;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
+
+OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4_2:
+  Skills:
+  - projectile{
+    oT=[
+      - particle{p=Falling_Dripstone_Water;a=1}
+    ];
+    oe=[
+      - e:blockMask{b=lapis_BLOCK;r=4;d=20} @origin
+      - delay 20
+      - particle{p=Sonic_Boom;xs=2;a=3}
+      - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=4}
+    ];i=1;mr=15;ho=-18;v=100} @target
 
 
 
