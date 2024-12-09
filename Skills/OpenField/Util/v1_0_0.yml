@@ -13,7 +13,7 @@ OpenField_util_ストーン_5_Tatsukitsune7:
 OpenField_util_ストーン_5_MCLove32_Orb:
   Skills:
   - o{
-    n=<random.0to9999999>;t=100;r=<skill.r>;hr=2;vr=1;p=36;
+    n=<random.0to9999999>;t=100;r=<skill.r>;hr=2;vr=2;p=36;
     sp=<skill.sp>;i=1;hp=false;hnp=true;oy=<skill.y>;fo=true;
     conditions=[
       - isLiving true 
