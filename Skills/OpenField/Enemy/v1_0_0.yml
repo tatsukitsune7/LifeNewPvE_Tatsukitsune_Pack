@@ -144,7 +144,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
       - isLiving true 
       - isMythicMob  true
     ];
-    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @selfLocation
+    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @targetLocation
 
 
 
