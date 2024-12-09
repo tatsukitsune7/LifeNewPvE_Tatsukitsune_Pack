@@ -98,7 +98,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
     ];
     ot=[
       - particlesphere{particle=wax_off;amount=300;radius=15} @origin
-      - pull{v=3;to=true;cd=2} @target
+      - pull{v=6;to=true;cd=2} @target
       - sound{s=entity.ender_dragon.flap;cd=2} @origin
     ];
     oe=[
