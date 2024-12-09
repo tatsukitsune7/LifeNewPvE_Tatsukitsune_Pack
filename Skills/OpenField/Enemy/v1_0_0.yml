@@ -95,7 +95,8 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
   - addtag{t=大技中} @self
   - totem{
     os=[
-      - sound{s=block.enchantment_table.use;p=0.6;v=2} @origin
+      - sound{s=block.enchantment_table.use;p=0.6} @origin
+      - delay 10
       - teleport @origin
     ];
     ot=[
@@ -107,13 +108,13 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
     oe=[
       - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=15}
       - removetag{t=大技中} @self
-      - sound{s=entity.player.hurt_drown;p=0.5} @origin
+      - sound{s=entity.player.hurt_drown;p=0.5;v=2} @origin
     ];
     conditions=[
       - isLiving true 
       - isMythicMob  true
     ];
-    md=110;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
+    md=120;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
 
 
 OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
