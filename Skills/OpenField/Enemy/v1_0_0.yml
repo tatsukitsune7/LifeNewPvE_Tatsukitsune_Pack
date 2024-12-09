@@ -129,7 +129,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
       - particlesphere{particle=Sculk_Charge_Pop;amount=300;radius=5} @origin
     ];
     oe=[
-      - volley{s=REGULAR;a=10;d=20;t=TRIDENT;pickup=false;v=1;g=true;r=20;a=0.2;fo=true} @randomLocationsNearTargetLocations{r=30}
+      - volley{s=REGULAR;a=10;d=20;t=TRIDENT;pickup=false;v=1;g=true;r=20;a=0.2;fo=true} @targetedLocation
       - removetag{t=大技中} @self
       - sound{s=entity.player.hurt_drown;p=0.5;v=2} @origin
     ];
