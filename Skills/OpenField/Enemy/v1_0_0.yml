@@ -123,14 +123,28 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
   Skills:
+  - addtag{t=大技中} @self
+  - addtag{t=ボス無敵時間} @self
   - totem{
     os=[
-      - effect:particle{p=angry_villager}
+      - sound{s=block.bubble_column.whirlpool_inside;p=0.6} @origin
+      - delay 10
+      - teleport @origin
+    ];
+    ot=[
+      - particlering{pts=16;r=4;p=Dolphin}
     ];
     oe=[
-      - sound{s=entity.ender_dragon.hurt}
+      - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=4}
+      - removetag{t=大技中} @self
+      - removetag{t=ボス無敵時間} @self
+      - sound{s=entity.player.hurt_drown;p=0.5;v=2} @origin
     ];
-    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @line{r=1}
+    conditions=[
+      - isLiving true 
+      - isMythicMob  true
+    ];
+    md=30;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @selfLocation
 
 
 
