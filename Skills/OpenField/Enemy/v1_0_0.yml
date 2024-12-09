@@ -129,7 +129,11 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
       - particlesphere{particle=Sculk_Charge_Pop;amount=300;radius=5} @origin
     ];
     oe=[
-      - geyser{t=WATER;height=3;speed=10} @playersNearTargetLocations{r=20}
+      - delay 20
+      - guardianbeam{d=200;i=1;syo=1;
+      oE=[
+        - damage{a=20;pi=true;ii=true} @origin
+      ]} @Target
       - removetag{t=大技中} @self
       - sound{s=entity.player.hurt_drown;p=0.5;v=2} @origin
     ];
