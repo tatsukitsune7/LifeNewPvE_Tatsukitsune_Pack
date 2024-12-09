@@ -97,7 +97,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
       - sound{s=block.enchantment_table.use} @origin
     ];
     ot=[
-      - particlesphere{particle=wax_off;amount=200;radius=15} @origin
+      - particlesphere{particle=wax_off;amount=300;radius=15} @origin
     ];
     oe=[
       - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=15}
@@ -108,7 +108,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
       - isLiving true 
       - isMythicMob  true
     ];
-    md=80;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
+    md=60;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
 
 
 OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
