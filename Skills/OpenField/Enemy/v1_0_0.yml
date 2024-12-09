@@ -67,7 +67,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   Conditions:
   - hasTag{t=大技中} false 
   Skills:
-  - particle{p=flash} @self
+  - particle{p=flash;a=1} @self
   - delay 10
   - teleport{spreadh=5;spreadv=0} @target
 
