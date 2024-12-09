@@ -64,11 +64,15 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
+  Conditions:
+  - hasTag{t=大技中} false 
   Skills:
   - particle{p=witch} @self
   - teleport{spreadh=5;spreadv=0} @target
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
+  Conditions:
+  - hasTag{t=大技中} false 
   Cooldown: 10
   Skills:
   - missile{
@@ -87,15 +91,21 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
   Skills:
+  - addtag{t=大技中}
   - totem{
     os=[
       - sound{s=block.enchantment_table.use} @origin
     ];
     ot=[
-      - particlesphere{particle=flame;amount=200;radius=5} @origin
+      - particlesphere{particle=flame;amount=200;radius=15} @origin
     ];
     oe=[
-      - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=5}
+      - damage{a=40;pi=true;ii=true} @PlayersNearOrigin{r=15}
+      - removetag{t=大技中}
+    ];
+    conditions=[
+      - isLiving true 
+      - isMythicMob  true
     ];
     md=100;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
 
