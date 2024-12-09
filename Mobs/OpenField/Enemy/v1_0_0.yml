@@ -86,6 +86,9 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @target ~onEntercombat 
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2} @self ~onDamaged 
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3} @self =50%
+  - cancelevent{sync=true} @trigger{c=[ - isPlayer true ]} ~onDamaged ?hasTag{t=ボス無敵時間}
+  - cancelevent{sync=true} @trigger{c=[ - isPlayer true ]} ~onAttack ?hasTag{t=ボス無敵時間}
+
 OpenField_Enemy_ヤギ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
   Display: "&aヤギ"
