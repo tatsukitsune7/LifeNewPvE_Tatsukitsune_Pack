@@ -66,7 +66,13 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
   Health: 18
   Damage: 6
   Faction: Enemy
-  Type: Husk
+  Type: Drowned
+  BossBar:
+    Enabled: true
+    Title: '&o&b水の魔法使い'
+    Range: 50
+    Color: BLUE
+    Style: SOLID
   DamageModifiers:
   - FALL 0
   Options:
