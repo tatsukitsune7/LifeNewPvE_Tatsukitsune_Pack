@@ -116,33 +116,6 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3:
     ];
     md=120;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin
 
-OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4:
-  Skills:
-  - addtag{t=大技中} @self
-  - totem{
-    os=[
-      - sound{s=block.enchantment_table.use;p=0.6} @origin
-      - delay 10
-      - teleport @origin
-    ];
-    ot=[
-      - particlesphere{particle=Sculk_Charge_Pop;amount=300;radius=5} @origin
-    ];
-    oe=[
-      - delay 20
-      - guardianbeam{d=200;i=1;syo=1;
-      oE=[
-        - damage{a=20;pi=true;ii=true} @origin
-      ]} @Target
-      - removetag{t=大技中} @self
-      - sound{s=entity.player.hurt_drown;p=0.5;v=2} @origin
-    ];
-    conditions=[
-      - isLiving true 
-      - isMythicMob  true
-    ];
-    md=70;vr=1;r=10;hp=true;hnp=false;i=10;fo=true;sb=false} @origin{y=10}
-
 
 
 
