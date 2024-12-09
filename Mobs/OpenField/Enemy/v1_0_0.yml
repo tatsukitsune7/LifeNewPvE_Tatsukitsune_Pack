@@ -63,7 +63,7 @@ OpenField_Enemy_無銘_Tatsukitsune7:
 OpenField_Enemy_魔法使い_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
   Display: "&b魔法使い"
-  Health: 18
+  Health: 100
   Damage: 6
   Faction: Enemy
   Type: husk
