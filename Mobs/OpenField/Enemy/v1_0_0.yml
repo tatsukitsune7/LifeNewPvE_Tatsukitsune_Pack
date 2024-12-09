@@ -86,7 +86,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1} @target ~onTimer:65
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2} @self ~onDamaged 
   - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills3} @self =50%
-
+  - skill{s=OpenField_Enemy_魔法使い_Tatsukitsune7_Skills4} @PlayerLocationsInRadius{r=10} =25%
 OpenField_Enemy_ヤギ_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
   Display: "&aヤギ"
