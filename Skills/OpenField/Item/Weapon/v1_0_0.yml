@@ -20,7 +20,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
   - setMaterialCooldown{m=netherite_hoe;d=200} @self 
   - projectile{
     ot=[
-      - particle{p=wax_on;a=1}
+      - particle{p=wax_on;a=1;audience=caster}
     ];
     oh=[
       - damage{a=20;e=YELLOW}
@@ -59,7 +59,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   - slash{
     y=1.8;w=4;h=2;mpd=true;a=180;
     oP=[
-       - effect:particles{p=White_Smoke} 
+       - effect:particles{p=White_Smoke;audience=caster} 
     ];roll=<random.-65to245>;
     oH=[
       - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end{damage=20}

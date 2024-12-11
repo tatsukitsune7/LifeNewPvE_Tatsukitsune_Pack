@@ -20,11 +20,10 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
   - projectile{
     os=[
-      - sound{s=}
+      - sound{s=block.enchantment_table.use;v=1;p=1.5;audience=caster}
     ];
     bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
-    v=10;i=1;vr=1.5;hr=1.5;mr=30;
-    ;repeat=6;repeatI=10} 
+    v=10;i=1;vr=1.5;hr=1.5;mr=30} 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT:
   Skills:
   - effect:particles{p=witch;a=30;hs=0.1;vs=2}

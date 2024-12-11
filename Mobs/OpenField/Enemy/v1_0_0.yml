@@ -58,6 +58,9 @@ OpenField_Enemy_無銘_Tatsukitsune7:
    AttackSpeed: 2
   Skills:
   - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills} @target ~onTimer:100
+  - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills_2} @target ~onTimer:160
+  - cancelevent{sync=true} @trigger{c=[ - isPlayer true ]} ~onDamaged ?hasTag{t=ボス無敵時間}
+  - cancelevent{sync=true} @trigger{c=[ - isPlayer true ]} ~onAttack ?hasTag{t=ボス無敵時間}
 
 OpenField_Enemy_魔法使い_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
