@@ -59,7 +59,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
     ];
     bulletType=DISPLAY;mat=iron_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
     v=5;i=1;vr=1.5;hr=1.5;mr=30
-    ;sfo=<random.-2to3>;sso=<random.-20to20>;repeat=35;repeati=2} @TL
+    ;sfo=<random.-2to3>;sso=<random.-20to20>;repeat=25;repeati=2} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - setTarget @TTP{limit=1;sort=RANDOM}
