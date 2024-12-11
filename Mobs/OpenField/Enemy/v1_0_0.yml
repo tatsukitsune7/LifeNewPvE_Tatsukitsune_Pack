@@ -77,9 +77,9 @@ OpenField_Enemy_魔法使い_Tatsukitsune7:
   DamageModifiers:
   - FALL 0
   Options:
-   FollowRange: 20
+   FollowRange: 60
    Scale: 1
-   MovementSpeed: 0.01
+   MovementSpeed: 0.1
    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills:
