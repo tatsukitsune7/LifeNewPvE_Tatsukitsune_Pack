@@ -50,8 +50,8 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
       - damage{a=20;pi=true;ii=true}
     ];
     oe=[
-      - removetag{t=大技中}
-      - removetag{t=ボス無敵時間}
+      - removetag{t=大技中} @self
+      - removetag{t=ボス無敵時間} @self
     ];
     bulletType=DISPLAY;mat=iron_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
     v=15;i=1;vr=1.5;hr=1.5;mr=30
