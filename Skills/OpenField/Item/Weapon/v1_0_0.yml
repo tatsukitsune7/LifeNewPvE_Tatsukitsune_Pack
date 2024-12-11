@@ -20,9 +20,15 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
   - setMaterialCooldown{m=netherite_hoe;d=200} @self 
   - projectile{
     oe=[
-       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
+      - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
-    v=150;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60;
+    ot=[
+      - particle{p=Glow;a=1}
+    ];
+    os=[
+      - sound{s=item.trident.thunder;v=1;p=1.8}
+    ];
+    v=30;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60;
     b=arrow;arrowtype=TRIDENT} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
