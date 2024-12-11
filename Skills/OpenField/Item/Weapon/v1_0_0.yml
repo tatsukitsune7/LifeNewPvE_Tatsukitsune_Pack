@@ -34,7 +34,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
     v=30;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
-  - particleline{p=wax_on;zz=true;zigzags=20;ys=4;fo=true;db=2}
+  - particleline{p=wax_on;zz=true;zigzags=3;ys=4;fo=true;db=10}
 
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
