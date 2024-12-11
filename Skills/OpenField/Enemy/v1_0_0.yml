@@ -15,12 +15,16 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   Skills:
-  - doppleganger{nameplate=false;upn=false} @PIR{r=50}
-  - randomskill{skills=OpenField_Enemy_無銘_Tatsukitsune7_Skills2,OpenField_Enemy_無銘_Tatsukitsune7_Skills3,OpenField_Enemy_無銘_Tatsukitsune7_Skills4}
+  - doppleganger{nameplate=false;upn=false} @randomLocationsNearTarget{r=50}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
   Skills:
-  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=-18;v=10}
-  - projectile{oT=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT;oh=OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH;i=1;mr=15;ho=18;v=10}
+  - projectile{
+    os=[
+      - sound{s=}
+    ];
+    bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
+    v=10;i=1;vr=1.5;hr=1.5;mr=30;
+    ;repeat=6;repeatI=10} 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT:
   Skills:
   - effect:particles{p=witch;a=30;hs=0.1;vs=2}
@@ -130,4 +134,3 @@ OpenField_Enemy_ヤギ_Tatsukitsune7_SKills:
   - Lunge{velocity=1.5;velocityY=0.75} @target
   - delay 5
   - damage{a=15} @PIR{r=2}
-  

@@ -32,7 +32,8 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
     b=arrow;arrowtype=TRIDENT} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
-  - lightning{d=80;ii=true;pi=true;e=YELLOW} @ENO{r=3;limit=5;sort=random;c=[ - isLiving true - isMythicMob true ]}
+  - particleline{p=wax_on;zz=true;ys=2;zzo=0.6;md=20} 
+  - damage{a=10} 
 
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
