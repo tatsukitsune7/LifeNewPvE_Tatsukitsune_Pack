@@ -23,7 +23,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
     ot=[
-      - particle{p=Glow;a=1}
+      - particle{p=Glow;a=3}
     ];
     os=[
       - sound{s=item.trident.thunder;v=1;p=1.8}
