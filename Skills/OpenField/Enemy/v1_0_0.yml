@@ -62,24 +62,6 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   - sound{s=block.ender_chest.open;v=1;p=0.6} @self
   - slash{y=1.8;w=4;h=2;mpd=true;a=180;oP=[ - effect:particles{p=Reverse_Portal} ];roll=<random.-45to45>;oH=[ - damage{a=10;pi=true;ii=true} ];repeat=1;repeati=6} @self
 
-
-OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
-  Conditions:
-  - incombat true
-  - hasTag{t=大技中} false orElseCast OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_大技中tp処理
-  Skills:
-  - particle{p=flash;a=1} @self
-  - delay 10
-  - teleport{spreadh=5;spreadv=0} @target
-  - delay 65
-  - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1 @self
-
-OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_大技中tp処理:
-  Cooldown: 4
-  Skills:
-  - delay 100
-  - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1 @self
-
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
   Conditions:
   - hasTag{t=大技中} false 
