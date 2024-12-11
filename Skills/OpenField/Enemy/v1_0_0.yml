@@ -25,7 +25,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
       - sound{s=block.enchantment_table.use;v=1;p=1.5}
     ];
     bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
-    v=10;i=1;vr=1.5;hr=1.5;mr=30}
+    v=10;i=1;vr=1.5;hr=1.5;mr=30} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
   Skills:
   - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
