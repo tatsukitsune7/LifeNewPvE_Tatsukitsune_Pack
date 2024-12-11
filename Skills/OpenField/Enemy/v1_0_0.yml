@@ -66,7 +66,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   Conditions:
   - incombat true
-  - hasTag{t=大技中} orElseCast OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_大技中tp処理
+  - hasTag{t=大技中} false orElseCast OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1_大技中tp処理
   Skills:
   - particle{p=flash;a=1} @self
   - delay 10
