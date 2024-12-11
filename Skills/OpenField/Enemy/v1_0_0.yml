@@ -37,25 +37,33 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
   Skills:
   - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
+OpenField_Enemy_無銘_Tatsukitsune7_Skills3_大技:
+  skills:
+  - addtag{t=大技中} @self
+  - addtag{t=ボス無敵時間} @self
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills3
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills3
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills3
+  - delay 30
+  - removetag{t=大技中} @self
+  - removetag{t=ボス無敵時間} @self
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Skills:
-  - addtag{t=大技中} @self
-  - addtag{t=ボス無敵時間} @self
   - projectile{
     os=[
+      - modifyprojectile{t=VELOCITY;a=SET;v=12;delay=25} @self
       - sound{s=block.enchantment_table.use;v=1;p=1.5}
+    ];
+    ot=[
+      - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=1.05} @self 
     ];
     oh=[
       - damage{a=20;pi=true;ii=true}
     ];
-    oe=[
-      - removetag{t=大技中} @self
-      - removetag{t=ボス無敵時間} @self
-    ];
     bulletType=DISPLAY;mat=iron_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
-    v=15;i=1;vr=1.5;hr=1.5;mr=30
-    ;sfo=<random.-2to3>;sso=<random.-15to15>;repeat=15;repeati=1} @TL
+    v=1;i=1;vr=1.5;hr=1.5;mr=30
+    ;sfo=<random.-2to3>;sso=<random.-15to15>;repeat=5;repeati=2} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - setTarget @TTP{limit=1;sort=RANDOM}
