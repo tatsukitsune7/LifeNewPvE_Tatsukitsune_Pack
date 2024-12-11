@@ -21,17 +21,11 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2: 
   Skills:
   - projectile{
-    ot=[
-      - particle{p=White_Smoke;a=1}
-    ];
-    oh=[
-      - damage{a=20;e=YELLOW}
-    ];
     os=[
-      - sound{s=item.trident.thunder;v=1;p=1.8}
+      - sound{s=block.enchantment_table.use;v=1;p=1.5}
     ];
-    v=30;i=1;vr=1.5;r=1.5;hp=true;hnp=false;mr=28;md=60} @TL
-
+    bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
+    v=10;i=1;vr=1.5;hr=1.5;mr=30}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
   Skills:
   - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
