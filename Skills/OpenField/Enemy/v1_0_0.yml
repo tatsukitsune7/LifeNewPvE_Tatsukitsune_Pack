@@ -29,7 +29,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
     ];
     bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
     v=15;i=1;vr=1.5;hr=1.5;mr=30
-    syo=<random.1to5>;sfo=<random.-2to3>;sso=<random.-2to2>} @TL
+    ;sfo=<random.-2to3>;sso=<random.-2to2>} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
   Skills:
   - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
