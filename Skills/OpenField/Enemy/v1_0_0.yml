@@ -15,8 +15,9 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   Skills:
-  - doppleganger{nameplate=false;upn=false} @randomLocationsNearTarget{r=50}
-OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget
+  - doppleganger{nameplate=false;upn=false}
+OpenField_Enemy_無銘_Tatsukitsune7_Skills2: 
   Skills:
   - projectile{
     os=[
@@ -24,14 +25,9 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
     ];
     bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
     v=10;i=1;vr=1.5;hr=1.5;mr=30} 
-OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oT:
+OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
   Skills:
-  - effect:particles{p=witch;a=30;hs=0.1;vs=2}
-  - effect:particles{p=Wax_Off;a=30;hs=0.1;vs=2}
-
-OpenField_Enemy_無銘_Tatsukitsune7_Skills2_oH:
-  Skills:
-  - damage{a-8}
+  - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Conditions:
