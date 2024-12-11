@@ -1,6 +1,6 @@
 OpenField_Enemy_test_Tatsukitsune7_Skills:
   Skills:
-  - particleline{particle=flame;amount=1;fromOrigin=true} @target
+  - particleline{particle=Wax_Off;amount=1;fromOrigin=true;zz=true;zzs=10;db=0.4} @target
 
 
 OpenField_Enemy_サソリ_Tatsukitsune7_Skills:
