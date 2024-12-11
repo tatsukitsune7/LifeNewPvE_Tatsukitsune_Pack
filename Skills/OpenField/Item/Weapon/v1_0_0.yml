@@ -27,12 +27,12 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
     os=[
-      - sound{s=item.trident.thunder;v=1;p=1.8}
+      - sound{s=item.trident.thunder;v=1;p=1.8;audience=caster;audience=caster}
     ];
     v=30;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
-  - particlelinehelix{Fo=true;db=0.4;hl=4;syo=1.8;p=scrape;hr=0.5;md=20;ys=3;db=0.4}
+  - particlelinehelix{Fo=true;db=0.4;hl=4;syo=1.8;p=scrape;hr=0.5;md=20;ys=3;db=0.4;audience=caster}
 
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
@@ -65,7 +65,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
       - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end{damage=20}
     ];
     oS=[
-      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2}
+      - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2;audience=caster}
     ];
     repeat=4;repeati=1} @self
   - delay 30
