@@ -19,14 +19,12 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
   - aura{n=サブウェポン;i=20;rd=true;t=60} @self 
   - setMaterialCooldown{m=netherite_hoe;d=200} @self 
   - projectile{
-    oe=[
-      - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
-    ];
     ot=[
       - particle{p=wax_on;a=1}
     ];
     oh=[
       - damage{a=20;e=YELLOW}
+      - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
     os=[
       - sound{s=item.trident.thunder;v=1;p=1.8}
@@ -34,7 +32,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
     v=30;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60} @TL
 OpenField_Weapon_雷_Tatsukitsune7_Process:
   Skills:
-  - particleline{p=wax_on;zz=true;zigzags=3;ys=4;fo=true;db=3;zzo=2}
+  - particleline{p=wax_on;zz=true;zigzags=10;ys=4;fo=true;db=1;zzo=1}
 
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
