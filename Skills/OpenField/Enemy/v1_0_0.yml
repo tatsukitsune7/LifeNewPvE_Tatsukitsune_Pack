@@ -72,7 +72,7 @@ OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1:
   - delay 10
   - teleport{spreadh=5;spreadv=0} @target
   - delay 65
-  - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1 @target
+  - skill:OpenField_Enemy_魔法使い_Tatsukitsune7_Skills1 @self
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
   Conditions:
