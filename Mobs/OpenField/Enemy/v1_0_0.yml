@@ -44,12 +44,18 @@ OpenField_Enemy_サソリ_Tatsukitsune7:
 OpenField_Enemy_無銘_Tatsukitsune7:
   Template: OpenField_Enemy_Base_MCLove32
   Display: "&6無銘"
-  Health: 18
+  Health: 100
   Damage: 6
   Faction: Enemy
   Type: Husk
   DamageModifiers:
   - FALL 0
+  BossBar:
+    Enabled: true
+    Title: '&o???'
+    Range: 50
+    Color: WHITE
+    Style: SOLID
   Options:
    FollowRange: 20
    Scale: 1
