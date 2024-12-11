@@ -14,11 +14,15 @@ OpenField_Enemy_サソリ_Tatsukitsune7_Skills_Potion:
   - potion{t=POISON;d=20;l=1}
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills:
+  Conditions:
+  - hasTag{t=大技中} false 
   Skills:
   - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget @self
   - delay 10
   - doppleganger @target
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2: 
+  Conditions:
+  - hasTag{t=大技中} false 
   Skills:
   - projectile{
     os=[
@@ -27,7 +31,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
     oh=[
       - damage{a=20;pi=true;ii=true}
     ];
-    bulletType=DISPLAY;mat=diamond_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
+    bulletType=DISPLAY;mat=iron_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
     v=15;i=1;vr=1.5;hr=1.5;mr=30
     ;sfo=<random.-2to3>;sso=<random.-2to2>} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
@@ -35,13 +39,23 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2_randomtarget:
   - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
-  Conditions:
-  - playerwithin{d=12} false
   Skills:
-  - sound{s=block.trial_spawner.about_to_spawn_item;v=1;p=1} @self
-  - setTarget @TTP{limit=1;sort=RANDOM}
-  - missile{ot=[ - effect:particles{p=Wax_Off;a=1} ];oh=[ - damage{a=10;pi=true;ii=true} ];bulletType=MOB;mob=OpenField_Util_アメジストブロック_50_Tatsukitsune7;bmd=true;
-    byo=0;bfo=0;v=10;i=1;vr=1;hr=1;mr=24;md=35;fo=true;in=12;vo=2;ho=<random.0to360>;g=0.5;repeat=2;repeati=10}
+  - addtag{t=大技中} @self
+  - addtag{t=ボス無敵時間} @self
+  - projectile{
+    os=[
+      - sound{s=block.enchantment_table.use;v=1;p=1.5}
+    ];
+    oh=[
+      - damage{a=20;pi=true;ii=true}
+    ];
+    oe=[
+      - removetag{t=大技中}
+      - removetag{t=ボス無敵時間}
+    ];
+    bulletType=DISPLAY;mat=iron_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
+    v=15;i=1;vr=1.5;hr=1.5;mr=30
+    ;sfo=<random.-2to3>;sso=<random.-15to15>;repeat=15;repeati=1} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - setTarget @TTP{limit=1;sort=RANDOM}
