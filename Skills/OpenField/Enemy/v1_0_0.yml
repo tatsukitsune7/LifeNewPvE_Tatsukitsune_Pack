@@ -66,7 +66,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skills5:
   Skills:
-  - orbital{onTick=OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray_2;points=20;interval=1;duration=200;charges=1;r=15;rx=4}
+  - orbital{onTick=OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray_2;points=10;interval=1;duration=200;charges=1;r=15}
   - sound{s=entity.wither.spawn;v=0.5;p=1.5}
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray_2:
