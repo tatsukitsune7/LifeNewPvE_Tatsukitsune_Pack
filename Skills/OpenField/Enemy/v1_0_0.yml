@@ -18,7 +18,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills:
   - hasTag{t=大技中} false 
   Skills:
   - doppleganger @NearestPlayer{r=50}
-  - setTarget
+  - setTarget @NearestPlayer{r=50}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills2: 
   Conditions:
   - hasTag{t=大技中} false 
