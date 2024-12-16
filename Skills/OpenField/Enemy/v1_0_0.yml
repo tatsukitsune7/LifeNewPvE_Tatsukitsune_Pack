@@ -32,9 +32,6 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills2:
     bulletType=DISPLAY;mat=iron_sword;scale=1.5,1.5,1.5;yaw=3.14;pitch=1.57;roll=0.785;
     v=15;i=1;vr=1.5;hr=1.5;mr=30
     ;sfo=<random.-2to3>;sso=<random.-2to2>} @TL
-OpenField_Enemy_無銘_Tatsukitsune7_Skills_randomtarget:
-  Skills:
-  - setTarget @ThreatTablePlayers{sort=RANDOM;limit=1}
 OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   Skills:
   - addtag{t=大技中} @self
@@ -44,7 +41,6 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
   - projectile{
     os=[
       - sound{s=block.enchantment_table.use;v=1;p=1.5}
-      - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills_randomtarget
     ];
     ot=[
       - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=1.05} @self
