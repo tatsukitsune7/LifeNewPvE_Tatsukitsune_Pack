@@ -59,7 +59,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
   - sound{s=entity.wither.spawn;v=0.5;p=1.5}
-  - potion{t=LEVITATION;d=105;l=1;a=false;p=false} @self
+  - potion{t=LEVITATION;d=60;l=4;a=false;p=false} @self
   - delay 30
   - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray{repeat=5;repeati=15} @TL{d=30}
 
