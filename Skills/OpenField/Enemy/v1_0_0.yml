@@ -61,14 +61,13 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
     ;sfo=<random.-2to3>;sso=<random.-20to20>;syo=5;repeat=25;repeati=2} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
-  - potion{t=LEVITATION;d=40;l=2;a=false;p=false} @self
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray @TL{d=30}
-  - delay 10
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray @TL{d=30}
-  - delay 10
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray @TL{d=30}
-  - delay 10
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray @TL{d=30}
+  - potion{t=LEVITATION;d=40;l=1;a=false;p=false} @self
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray{
+    oe=[
+      - removetag{t=大技中} @self
+      - removetag{t=ボス無敵時間} @self
+    ];
+    repeat=5;repeati=10} @TL{d=30}
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray:
   Skills:
