@@ -64,10 +64,10 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray:
   Skills:
-  - pl{p=flame;a=1;fo=true;db=0.5} 
+  - pl{p=End_Rod;a=1;fo=true;db=0.5} 
   - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process{origin=@targetedLoc;delay=30} @Line{r=4}
   - delay 30
-  - pl{p=Sonic_Boom;a=1;fo=true;db=0.5} 
+  - pl{p=Glow_Squid_Ink;a=1;fo=true;db=0.5} 
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process:
   Skills:
