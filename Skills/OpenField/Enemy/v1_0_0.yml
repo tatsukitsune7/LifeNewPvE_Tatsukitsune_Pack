@@ -62,18 +62,18 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills3:
     ;sfo=<random.-2to3>;sso=<random.-20to20>;syo=5;repeat=25;repeati=2} @TL
 OpenField_Enemy_無銘_Tatsukitsune7_Skills4:
   Skills:
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills4_ray @TL{d=30}
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray @TL{d=30}
 
-OpenField_Enemy_無銘_Tatsukitsune7_Skills4_ray:
-  skills:
-  - pl{p=flame;a=1;fo=true;db=0.5}
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skills4_process{origin=@targetLoc;delay=30} @Line{r=4}
-  - delay 30
-  - pl{p=sonic_boom;a=1;fo=true;db=0.5}
-OpenField_Enemy_無銘_Tatsukitsune7_Skills4_process:
+OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray:
   Skills:
-  - damage{a=20;pi=true;ii=true} @ENT{r=4;c=[ - isLiving true - isMythicMob true]}
+  - pl{p=flame;a=1;fo=true;db=0.5} 
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process{origin=@targetedLoc;delay=30} @Line{r=4}
+  - delay 30
+  - pl{p=Sonic_Boom;a=1;fo=true;db=0.5} 
 
+OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process:
+  Skills:
+  - damage{a=10;pi=true;ii=true} @ENT{r=4;c=[ - isLiving true - isMythicMob true ]}
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
   Conditions:
