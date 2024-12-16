@@ -71,6 +71,7 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skills5:
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray_2:
   Skills:
+  - modifyProjectile{trait=VELOCITY;action=MULTIPLY;value=1.05} @self
   - sound{s=entity.evoker.prepare_summon;v=0.5;p=2}
   - pl{p=Instant_Effect;a=1;fo=true;db=0.5} 
   - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process_2{origin=@targetedLoc;delay=30} @Line{r=4}
