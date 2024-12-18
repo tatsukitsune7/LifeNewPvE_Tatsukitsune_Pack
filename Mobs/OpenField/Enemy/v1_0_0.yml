@@ -59,7 +59,7 @@ OpenField_Enemy_無銘_Tatsukitsune7:
   Options:
    FollowRange: 20
    Scale: 1
-   MovementSpeed: 0.3
+   MovementSpeed: 0.003
    KnockbackResistance: 0.75
    AttackSpeed: 2
   Skills:
