@@ -74,13 +74,13 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray_2:
   Skills:
   - sound{s=entity.evoker.prepare_summon;v=0.5;p=2}
   - pl{p=Instant_Effect;a=1;fo=true;db=0.5} 
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process_2{origin=@origin;delay=30} @Line{r=4}
+  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process_2{origin=@targetedLoc;delay=30} @Line{r=4}
   - delay 30
   - pl{p=Glow_Squid_Ink;a=1;fo=true;db=0.5} 
 
 OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process_2:
   Skills:
-  - damage{a=10;pi=true;ii=true} @ENT{r=4}
+  - damage{a=10;pi=true;ii=true} @PNTL{r=4}
 
 
 
