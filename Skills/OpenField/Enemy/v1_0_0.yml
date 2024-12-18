@@ -82,6 +82,9 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process_2:
   Skills:
   - damage{a=10;pi=true;ii=true} @PNTL{r=4}
 
+OpenField_Enemy_無銘_Tatsukitsune7_Skill_6:
+   Skills:
+   - guardianbeam{d=200;i=1;syo=1;fromOrigin=false} @Target
 
 
 OpenField_Enemy_魔法使い_Tatsukitsune7_Skills2:
