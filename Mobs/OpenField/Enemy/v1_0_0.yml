@@ -68,7 +68,6 @@ OpenField_Enemy_無銘_Tatsukitsune7:
   - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills3} @self =50
   - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills4} @self =90
   - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skills5} @self ~onDeath 
-  - skill{s=OpenField_Enemy_無銘_Tatsukitsune7_Skill_6} @self =96
   - cancelevent{sync=true} @trigger{c=[ - isPlayer true ]} ~onDamaged ?hasTag{t=ボス無敵時間}
   - cancelevent{sync=true} @trigger{c=[ - isPlayer true ]} ~onAttack ?hasTag{t=ボス無敵時間}
 
