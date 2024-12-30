@@ -64,33 +64,6 @@ OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process:
   Skills:
   - damage{a=10;pi=true;ii=true} @ENT{r=4}
 
-OpenField_Enemy_無銘_Tatsukitsune7_Skills5:
-  Skills:
-  - potion{t=SLOWNESS;d=200;l=10;p=false;a=false}
-  - o{p=360;i=1;t=200;r=15;hp=true;hnp=false;
-    ot=OpenField_Enemy_無銘_Tatsukitsune7_Skills_Start;sp=0;oy=2} @self
-
-  - o{p=360;i=1;t=200;r=15;hp=true;hnp=false;
-    ot=OpenField_Enemy_無銘_Tatsukitsune7_Skills_Start;sp=90;oy=2} @self
-
-  - o{p=360;i=1;t=200;r=15;hp=true;hnp=false;
-    ot=OpenField_Enemy_無銘_Tatsukitsune7_Skills_Start;sp=180;oy=2} @self
-
-  - o{p=360;i=1;t=200;r=15;hp=true;hnp=false;
-    ot=OpenField_Enemy_無銘_Tatsukitsune7_Skills_Start;sp=270;oy=2} @self
-
-OpenField_Enemy_無銘_Tatsukitsune7_Skills_Start:
-  Skills:
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray{fo=true} @selfLocation
-
-OpenField_Enemy_無銘_Tatsukitsune7_Skill_ray:
-  Skills:
-  - pl{p=composter;a=1;fo=true;db=0.5} 
-  - skill:OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process{origin=@targetedLoc} @Line{r=4}
-
-OpenField_Enemy_無銘_Tatsukitsune7_Skill_Process:
-  Skills:
-  - damage{a=10;pi=true;ii=true} @ENT{r=4;c=[ - isLiving true - isMythicMob true ]}
 
 
 
