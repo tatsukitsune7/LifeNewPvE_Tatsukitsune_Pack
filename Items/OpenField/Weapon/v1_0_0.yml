@@ -6,6 +6,10 @@ OpenField_Weapon_雷_Tatsukitsune7:
     ItemVersion: 1
     Unbreakable: true
   Group: 'Sub-Weapon'
+  NBT:
+    PublicBukkitValues:
+      rcpve:exp_amount: 16000
+      rcpve:max_level: 20
   Skills:
   - skill:OpenField_Weapon_雷_Tatsukitsune7_SKills @self ~onUse
 
@@ -17,5 +21,9 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7:
     ItemVersion: 1
     Unbreakable: true
   Group: 'Main-Weapon'
+  NBT:
+    PublicBukkitValues:
+      rcpve:exp_amount: 16000
+      rcpve:max_level: 20
   Skills:
   - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills @self ~onUse
