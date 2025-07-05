@@ -1,8 +1,6 @@
 OpenField_Weapon_雷_Tatsukitsune7_SKills:
   Cooldown: 10
   Conditions:
-  - wearing{s=HAND;type=main_s0_雷}
-  - rcct{} false
   - hasMana{a=>100;
     onFail=[
       - message{m="&cマナが足りません。"} @self 
