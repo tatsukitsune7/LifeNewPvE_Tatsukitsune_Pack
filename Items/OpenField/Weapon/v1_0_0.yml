@@ -14,6 +14,7 @@ OpenField_Weapon_雷_Tatsukitsune7:
   - wearing{s=HAND;type=main_s0_雷}
   - rcct{} false
   Skills:
+  - rcbuff{type=gray;amount=100;dulation=200} @self
   - skill:OpenField_Weapon_雷_Tatsukitsune7_SKills @self ~onUse
   - rcct{d=20} @self
 
