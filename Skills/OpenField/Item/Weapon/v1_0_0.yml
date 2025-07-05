@@ -11,7 +11,6 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
     ]} false  
   - materialIsOnCooldown{m=netherite_hoe} false 
   Skills:
-  - rcbuff{type=yellow;amount=100;dulation=40} @self
   - modifyMana{a=-100} @self 
   - aura{n=サブウェポン;i=20;rd=true;t=60} @self 
   - setMaterialCooldown{m=netherite_hoe;d=200} @self 
@@ -20,7 +19,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
       - particle{p=wax_on;a=1;audience=caster}
     ];
     oh=[
-      - damage{a=15*<rcbuff.yellow>*<rcbuff.level>;pi=true;type=yellow}
+      - damage{a=15*<rcbuff.gray>*<rcbuff.level>;pi=true;type=gray}
       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
     os=[
