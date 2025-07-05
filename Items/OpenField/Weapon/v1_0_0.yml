@@ -10,6 +10,9 @@ OpenField_Weapon_雷_Tatsukitsune7:
     PublicBukkitValues:
       rcpve:exp_amount: "int/16000"
       rcpve:max_level: "int/20"
+  Conditions:
+  - wearing{s=HAND;type=main_s0_雷}
+  - rcct{} false
   Skills:
   - skill:OpenField_Weapon_雷_Tatsukitsune7_SKills @self ~onUse
   - rcct{d=20} @self
@@ -27,7 +30,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7:
       rcpve:exp_amount: "int/16000"
       rcpve:max_level: "int/20"
   Conditions:
-  - wearing{s=HAND;type=main_s0_雷}
+  - wearing{s=HAND;type=main_s0_ウィンドブレード}
   - rcct{} false
   Skills:
   - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills @self ~onUse

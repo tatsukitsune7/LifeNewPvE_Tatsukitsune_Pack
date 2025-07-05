@@ -35,7 +35,6 @@ OpenField_Weapon_雷_Tatsukitsune7_Process:
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
   Cooldown: 6
   Conditions:
-  - wearing{s=HAND;type=main_s0_ウィンドブレード}
   - hasMana{a=>15;
     onFail=[
       - message{m="&cマナが足りません。"} @self 
