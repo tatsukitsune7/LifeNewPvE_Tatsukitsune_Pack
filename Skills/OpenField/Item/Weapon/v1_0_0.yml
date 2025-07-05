@@ -57,7 +57,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
        - effect:particles{p=White_Smoke;audience=caster} 
     ];roll=<random.-65to245>;
     oH=[
-      - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end{damage=20}
+      - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end
     ];
     oS=[
       - sound{s=block.trial_spawner.ominous_activate;v=0.5;p=2;audience=caster}
