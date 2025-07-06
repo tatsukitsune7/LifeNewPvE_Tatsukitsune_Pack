@@ -19,7 +19,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
       - particle{p=wax_on;a=1;audience=caster}
     ];
     oh=[
-      - damage{a=10;pi=true;type=green} 
+      - damage{a=10;pi=true;type=yellow} 
       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
     os=[
