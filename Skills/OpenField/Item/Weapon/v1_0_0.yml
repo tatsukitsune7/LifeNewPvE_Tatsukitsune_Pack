@@ -39,6 +39,7 @@ OpenField_Weapon_雷_Tatsukitsune7_Process:
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
   Cooldown: 6
   Conditions:
+  - rcct{} false
   - hasMana{a=>15;
     onFail=[
       - message{m="&cマナが足りません。"} @self 
@@ -53,6 +54,7 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKills:
   - aura{n=メインウェポン;i=20;rd=true;t=20} @self 
   - setMaterialCooldown{m=wooden_sword;d=120} @self 
   - skill:OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process @origin
+  - rcct{d=20} @self
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_Process:
   Skills:
