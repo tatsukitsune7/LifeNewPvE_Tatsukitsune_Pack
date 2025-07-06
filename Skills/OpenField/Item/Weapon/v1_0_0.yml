@@ -25,6 +25,9 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
     os=[
       - sound{s=item.trident.thunder;v=1;p=1.8;audience=caster}
     ];
+    oe=[
+      - rcct{d=20} @self
+    ];
     v=30;i=1;vr=1.5;r=1.5;hp=false;hnp=true;mr=28;md=60} @TL
 
 

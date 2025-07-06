@@ -16,7 +16,6 @@ OpenField_Weapon_雷_Tatsukitsune7:
   Skills:
   - rcbuff{type=gray;amount=1000;dulation=200} @self ~onUse
   - skill:OpenField_Weapon_雷_Tatsukitsune7_SKills @self ~onUse
-  - rcct{d=20} @self ~onUse
 
 OpenField_Weapon_ウィンドブレード_Tatsukitsune7:
   Id: wooden_sword
