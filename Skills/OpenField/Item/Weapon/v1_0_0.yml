@@ -29,7 +29,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
 
 OpenField_Weapon_雷_Tatsukitsune7_Damage:
   Skills:
-  - damage{a=10*<rcbuff.level>;pi=true;type=gray} 
+  - damage{a=10;pi=true;type=gray} 
 
 
 OpenField_Weapon_雷_Tatsukitsune7_Process:
