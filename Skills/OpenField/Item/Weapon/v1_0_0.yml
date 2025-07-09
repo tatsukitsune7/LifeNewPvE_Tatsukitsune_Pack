@@ -20,7 +20,7 @@ OpenField_Weapon_雷_Tatsukitsune7_SKills:
       - particle{p=wax_on;a=1;audience=caster}
     ];
     oh=[
-      - damage{a=100;pi=true;type=gray} 
+      - damage{a="10*<rcbuff.gray>*<rcbuff.level>";pi=true;type=gray}
       - skill:OpenField_Weapon_雷_Tatsukitsune7_Process @origin 
     ];
     os=[
@@ -82,4 +82,4 @@ OpenField_Weapon_ウィンドブレード_Tatsukitsune7_SKill_end:
   Conditions:
   - wearing{m=OpenField_Weapon_ウィンドブレード_Tatsukitsune7;s=HAND}
   Skills:
-  - damage{a=10*<rcbuff.gray>*<rcbuff.level>;pi=true;type=gray} 
+  - damage{a="10*<rcbuff.gray>*<rcbuff.level>";pi=true;type=gray}

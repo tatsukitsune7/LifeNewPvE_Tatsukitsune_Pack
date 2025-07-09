@@ -20,7 +20,7 @@ OpenField_util_ストーン_5_MCLove32_Orb:
       - isMythicMob true
     ];
     oh=[
-      - damage{a=10*<rcbuff.green>*<rcbuff.level>;pi=true;type=green}
+      - damage{a="10*<rcbuff.green>*<rcbuff.level>";pi=true;type=green}
     ];
     ot=[
       - e:p{p=cloud;a=1;size=2} @origin 0.5
